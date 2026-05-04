@@ -1,4 +1,4 @@
-name: Triển khai tài liệu
+name: Deploy Docs
 
 on:
   push:
@@ -15,27 +15,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
 
-      - name: Thiết lập Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: pnpm
 
-      - name: Cài đặt phụ thuộc
+      - name: Install deps
         run: pnpm install --frozen-lockfile
 
-      - name: Xây dựng tài liệu
+      - name: Build Docs
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |
           pnpm build
           touch src/.vuepress/dist/.nojekyll
 
-      - name: Triển khai tài liệu
+      - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
