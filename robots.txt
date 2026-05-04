@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://duongajaas.github.io/sitemap.xml
+Sitemap: https://duongajaas.github.io/Wiki/sitemap.xml

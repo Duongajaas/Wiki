@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://duongajaas.github.io/rss.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://duongajaas.github.io/Wiki/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://duongajaas.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://duongajaas.github.io/Wiki/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Duongajaas</title>
-    <link>https://duongajaas.github.io/</link>
+    <link>https://duongajaas.github.io/Wiki/</link>
     <description>Duongajaas</description>
     <language>vi-VN</language>
-    <pubDate>Mon, 04 May 2026 09:28:49 GMT</pubDate>
-    <lastBuildDate>Mon, 04 May 2026 09:28:49 GMT</lastBuildDate>
+    <pubDate>Mon, 04 May 2026 09:51:56 GMT</pubDate>
+    <lastBuildDate>Mon, 04 May 2026 09:51:56 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>mongodb</category>
@@ -20,9 +20,9 @@
     <category>programming</category>
     <item>
       <title>Access Control Lists</title>
-      <link>https://duongajaas.github.io/network/acl.html</link>
-      <guid>https://duongajaas.github.io/network/acl.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Access Control Lists</source>
+      <link>https://duongajaas.github.io/Wiki/network/acl.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/acl.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Access Control Lists</source>
       <description>Danh Sách Kiểm Soát Truy Cập Access Control Lists (ACL) là một trong những cơ chế bảo mật và kiểm soát dùng trên router. Chúng chủ yếu lọc lưu lượng đi vào và đi ra khỏi router....</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -131,9 +131,9 @@
     </item>
     <item>
       <title>Network Basics</title>
-      <link>https://duongajaas.github.io/network/basics.html</link>
-      <guid>https://duongajaas.github.io/network/basics.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Network Basics</source>
+      <link>https://duongajaas.github.io/Wiki/network/basics.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/basics.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Network Basics</source>
       <description>Tổng quan mạng máy tính 101 Hệ thống mở: Là hệ thống đã được kết nối vào mạng và sẵn sàng giao tiếp. Hệ thống đóng: Là hệ thống không được kết nối vào mạng và không thể giao tiế...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -198,9 +198,9 @@ Là sự liên kết của nhiều thiết bị, còn gọi là host, được k
     </item>
     <item>
       <title>Broadcast Domain</title>
-      <link>https://duongajaas.github.io/network/broadcast-domain.html</link>
-      <guid>https://duongajaas.github.io/network/broadcast-domain.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Broadcast Domain</source>
+      <link>https://duongajaas.github.io/Wiki/network/broadcast-domain.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/broadcast-domain.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Broadcast Domain</source>
       <description>Domain là gì? Domain là một kiểu mạng máy tính trong đó toàn bộ máy tính người dùng, máy in, tài khoản và các thiết bị khác đều được đăng ký. Đây là một cơ sở dữ liệu tập trung ...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -285,9 +285,9 @@ Là sự liên kết của nhiều thiết bị, còn gọi là host, được k
     </item>
     <item>
       <title>Dynamic Routing</title>
-      <link>https://duongajaas.github.io/network/dynamic-routing.html</link>
-      <guid>https://duongajaas.github.io/network/dynamic-routing.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Dynamic Routing</source>
+      <link>https://duongajaas.github.io/Wiki/network/dynamic-routing.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/dynamic-routing.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Dynamic Routing</source>
       <description>Định tuyến động Định tuyến động là khi các giao thức, gọi là giao thức định tuyến, được dùng để xây dựng bảng định tuyến trong toàn mạng. Dùng giao thức định tuyến dễ hơn static...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -589,9 +589,9 @@ Là sự liên kết của nhiều thiết bị, còn gọi là host, được k
     </item>
     <item>
       <title>IP Addressing</title>
-      <link>https://duongajaas.github.io/network/ip-addressing.html</link>
-      <guid>https://duongajaas.github.io/network/ip-addressing.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">IP Addressing</source>
+      <link>https://duongajaas.github.io/Wiki/network/ip-addressing.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/ip-addressing.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">IP Addressing</source>
       <description>Đến với thế giới IP IP là gì? Nói ngắn gọn, Internet Protocol được dùng ở tầng mạng trong mô hình OSI và có thể xem nó như một mã định danh được gán cho mỗi thiết bị duyệt Inter...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -610,9 +610,9 @@ Là sự liên kết của nhiều thiết bị, còn gọi là host, được k
     </item>
     <item>
       <title>Network Address Translation (NAT)</title>
-      <link>https://duongajaas.github.io/network/nat.html</link>
-      <guid>https://duongajaas.github.io/network/nat.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Network Address Translation (NAT)</source>
+      <link>https://duongajaas.github.io/Wiki/network/nat.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/nat.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Network Address Translation (NAT)</source>
       <description>NAT Vì số lượng địa chỉ IP do IPv4 cung cấp trên thế giới là không đủ, nên cần một cơ chế chuyển đổi IP. Từ cơ chế này, người dùng được kỳ vọng sẽ chia địa chỉ IP của mình thành...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -655,9 +655,9 @@ Là sự liên kết của nhiều thiết bị, còn gọi là host, được k
     </item>
     <item>
       <title>OSI Protocols</title>
-      <link>https://duongajaas.github.io/network/osi-protocols.html</link>
-      <guid>https://duongajaas.github.io/network/osi-protocols.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">OSI Protocols</source>
+      <link>https://duongajaas.github.io/Wiki/network/osi-protocols.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/osi-protocols.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">OSI Protocols</source>
       <description>Mô hình OSI OSI là viết tắt của Open Systems Interconnection. Mô hình này được ISO – ‘International Organization for Standardization‘ phát triển vào năm 1984. Đây là kiến trúc 7...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -766,9 +766,9 @@ Là sự liên kết của nhiều thiết bị, còn gọi là host, được k
     </item>
     <item>
       <title>Router Components</title>
-      <link>https://duongajaas.github.io/network/router-components.html</link>
-      <guid>https://duongajaas.github.io/network/router-components.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Router Components</source>
+      <link>https://duongajaas.github.io/Wiki/network/router-components.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/router-components.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Router Components</source>
       <description>Các thành phần của Router Một wireless router kết nối trực tiếp với modem bằng cáp, khi đó router có thể nhận và truyền thông tin hoặc dữ liệu ra Internet. Sau đó router bắt đầu...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -804,9 +804,9 @@ Bộ nhớ này có thể xóa nếu cần. Running configuration của router c
     </item>
     <item>
       <title>Router và Switch</title>
-      <link>https://duongajaas.github.io/network/router-switch.html</link>
-      <guid>https://duongajaas.github.io/network/router-switch.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Router và Switch</source>
+      <link>https://duongajaas.github.io/Wiki/network/router-switch.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/router-switch.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Router và Switch</source>
       <description>Cấu hình mạng Trước khi cấu hình, bạn phải tạo một topology. Đây là topology ví dụ của tôi trước khi cấu hình. Hãy bắt đầu. Cấu hình Router Sau khi tạo xong topology, việc đầu t...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -834,9 +834,9 @@ Bộ nhớ này có thể xóa nếu cần. Running configuration của router c
     </item>
     <item>
       <title>Software Defined Networking (SDN)</title>
-      <link>https://duongajaas.github.io/network/sdn.html</link>
-      <guid>https://duongajaas.github.io/network/sdn.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Software Defined Networking (SDN)</source>
+      <link>https://duongajaas.github.io/Wiki/network/sdn.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/sdn.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Software Defined Networking (SDN)</source>
       <description>Software Defined Networking (SDN) SDN là viết tắt của Software Defined Networking, tức là một cách tiếp cận kiến trúc mạng. Nó cho phép điều khiển và quản lý mạng bằng các ứng d...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -981,9 +981,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Security Devices</title>
-      <link>https://duongajaas.github.io/network/security-devices.html</link>
-      <guid>https://duongajaas.github.io/network/security-devices.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Security Devices</source>
+      <link>https://duongajaas.github.io/Wiki/network/security-devices.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/security-devices.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Security Devices</source>
       <description>Firewall Firewall là thiết bị bảo mật mạng giám sát lưu lượng mạng đi vào và đi ra và quyết định cho phép hay chặn lưu lượng cụ thể dựa trên một bộ quy tắc bảo mật đã định nghĩa...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1171,9 +1171,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Static Routing</title>
-      <link>https://duongajaas.github.io/network/static-routing.html</link>
-      <guid>https://duongajaas.github.io/network/static-routing.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Static Routing</source>
+      <link>https://duongajaas.github.io/Wiki/network/static-routing.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/static-routing.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Static Routing</source>
       <description>Định tuyến Router nhận các packet dữ liệu và tìm địa chỉ Internet Protocol (IP) đích. Khi đã biết địa chỉ IP hoặc mạng đích, router sẽ kiểm tra bảng định tuyến để chọn tuyến đườ...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1239,9 +1239,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Subnetting</title>
-      <link>https://duongajaas.github.io/network/subnetting.html</link>
-      <guid>https://duongajaas.github.io/network/subnetting.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Subnetting</source>
+      <link>https://duongajaas.github.io/Wiki/network/subnetting.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/subnetting.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Subnetting</source>
       <description>Tính subnet mask Địa chỉ IP và subnet mask Địa chỉ IP 32-bit xác định duy nhất một thiết bị trên mạng IP. 32 bit nhị phân được subnet mask chia thành phần host và phần mạng, như...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1258,9 +1258,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Topologies</title>
-      <link>https://duongajaas.github.io/network/topologies.html</link>
-      <guid>https://duongajaas.github.io/network/topologies.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Topologies</source>
+      <link>https://duongajaas.github.io/Wiki/network/topologies.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/topologies.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Topologies</source>
       <description>Các loại mạng máy tính PAN: Personal Area Network. Nó kết nối các thiết bị điện tử trong phạm vi gần của người dùng. Kích thước của PAN dao động từ vài centimet đến vài mét. Một...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1298,9 +1298,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>VLANs</title>
-      <link>https://duongajaas.github.io/network/vlans.html</link>
-      <guid>https://duongajaas.github.io/network/vlans.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">VLANs</source>
+      <link>https://duongajaas.github.io/Wiki/network/vlans.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/vlans.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">VLANs</source>
       <description>VLANs VLANs (Virtual LANs) là nhóm logic của các thiết bị trong cùng một broadcast domain. VLAN được cấu hình trên switch bằng cách đặt một số interface vào một broadcast domain...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1349,9 +1349,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>VPN and IPsec</title>
-      <link>https://duongajaas.github.io/network/vpn-ipsec.html</link>
-      <guid>https://duongajaas.github.io/network/vpn-ipsec.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">VPN and IPsec</source>
+      <link>https://duongajaas.github.io/Wiki/network/vpn-ipsec.html</link>
+      <guid>https://duongajaas.github.io/Wiki/network/vpn-ipsec.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">VPN and IPsec</source>
       <description>VPN VPN là viết tắt của virtual private network. Virtual private network (VPN) là công nghệ tạo ra kết nối an toàn và được mã hóa trên một mạng kém an toàn hơn, chẳng hạn như In...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1469,9 +1469,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Operating Systems</title>
-      <link>https://duongajaas.github.io/os/</link>
-      <guid>https://duongajaas.github.io/os/</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Operating Systems</source>
+      <link>https://duongajaas.github.io/Wiki/os/</link>
+      <guid>https://duongajaas.github.io/Wiki/os/</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Operating Systems</source>
       <description>Hệ điều hành Đây là bản dịch tiếng Việt của repo Operating-Systems-Notes. Mục tiêu là giữ nguyên tuyến kiến thức của repo gốc, đồng thời diễn đạt lại bằng tiếng Việt rõ ràng hơn...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1479,18 +1479,18 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
 <h2>Nội dung trong repo gốc</h2>
 <ul>
 <li><a href="#t%E1%BB%95ng-quan-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh">Tổng quan hệ điều hành</a></li>
-<li><a href="/os/process-thread.html" target="_blank">Tiến trình và quản lý tiến trình</a></li>
-<li><a href="/os/process-thread.html#lu%E1%BB%93ng-v%C3%A0-%C4%91%E1%BB%93ng-th%E1%BB%9Di" target="_blank">Luồng và đồng thời</a></li>
-<li><a href="/os/scheduling.html" target="_blank">Lập lịch</a></li>
-<li><a href="/os/memory.html" target="_blank">Quản lý bộ nhớ</a></li>
-<li><a href="/os/ipc.html" target="_blank">IPC</a></li>
-<li><a href="/os/ipc.html#%C4%91%E1%BB%93ng-b%E1%BB%99" target="_blank">Đồng bộ</a></li>
-<li><a href="/os/io-filesystem.html" target="_blank">I/O Management</a></li>
-<li><a href="/os/io-filesystem.html#h%E1%BB%87-th%E1%BB%91ng-t%E1%BB%87p-%E1%BA%A3o-vfs" target="_blank">Virtual File System</a></li>
-<li><a href="/os/virtualization-distributed.html" target="_blank">Virtualization</a></li>
-<li><a href="/os/virtualization-distributed.html#rpc" target="_blank">Remote Procedure Calls</a></li>
-<li><a href="/os/virtualization-distributed.html#h%E1%BB%87-th%E1%BB%91ng-t%E1%BB%87p-ph%C3%A2n-t%C3%A1n" target="_blank">Distributed File Systems</a></li>
-<li><a href="/os/virtualization-distributed.html#b%E1%BB%99-nh%E1%BB%9B-chia-s%E1%BA%BB-ph%C3%A2n-t%C3%A1n" target="_blank">Distributed Shared Memory</a></li>
+<li><a href="/Wiki/os/process-thread.html" target="_blank">Tiến trình và quản lý tiến trình</a></li>
+<li><a href="/Wiki/os/process-thread.html#lu%E1%BB%93ng-v%C3%A0-%C4%91%E1%BB%93ng-th%E1%BB%9Di" target="_blank">Luồng và đồng thời</a></li>
+<li><a href="/Wiki/os/scheduling.html" target="_blank">Lập lịch</a></li>
+<li><a href="/Wiki/os/memory.html" target="_blank">Quản lý bộ nhớ</a></li>
+<li><a href="/Wiki/os/ipc.html" target="_blank">IPC</a></li>
+<li><a href="/Wiki/os/ipc.html#%C4%91%E1%BB%93ng-b%E1%BB%99" target="_blank">Đồng bộ</a></li>
+<li><a href="/Wiki/os/io-filesystem.html" target="_blank">I/O Management</a></li>
+<li><a href="/Wiki/os/io-filesystem.html#h%E1%BB%87-th%E1%BB%91ng-t%E1%BB%87p-%E1%BA%A3o-vfs" target="_blank">Virtual File System</a></li>
+<li><a href="/Wiki/os/virtualization-distributed.html" target="_blank">Virtualization</a></li>
+<li><a href="/Wiki/os/virtualization-distributed.html#rpc" target="_blank">Remote Procedure Calls</a></li>
+<li><a href="/Wiki/os/virtualization-distributed.html#h%E1%BB%87-th%E1%BB%91ng-t%E1%BB%87p-ph%C3%A2n-t%C3%A1n" target="_blank">Distributed File Systems</a></li>
+<li><a href="/Wiki/os/virtualization-distributed.html#b%E1%BB%99-nh%E1%BB%9B-chia-s%E1%BA%BB-ph%C3%A2n-t%C3%A1n" target="_blank">Distributed Shared Memory</a></li>
 </ul>
 <h2>Repo này mạnh ở đâu</h2>
 <p>Repo này cover khá chuẩn những phần nền tảng của OS:</p>
@@ -1528,9 +1528,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>File System</title>
-      <link>https://duongajaas.github.io/os/filesystem.html</link>
-      <guid>https://duongajaas.github.io/os/filesystem.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">File System</source>
+      <link>https://duongajaas.github.io/Wiki/os/filesystem.html</link>
+      <guid>https://duongajaas.github.io/Wiki/os/filesystem.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">File System</source>
       <description>Hệ thống tệp Trang này bổ sung trực tiếp cho phần I/O Management của repo gốc, tập trung vào cách dữ liệu được tổ chức trên đĩa và truy cập qua VFS. Khái niệm cốt lõi inode: lưu...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1622,9 +1622,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>I/O and File Systems</title>
-      <link>https://duongajaas.github.io/os/io-filesystem.html</link>
-      <guid>https://duongajaas.github.io/os/io-filesystem.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">I/O and File Systems</source>
+      <link>https://duongajaas.github.io/Wiki/os/io-filesystem.html</link>
+      <guid>https://duongajaas.github.io/Wiki/os/io-filesystem.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">I/O and File Systems</source>
       <description>I/O và Hệ thống tệp Đây là bản dịch chương I/O Management và phần Virtual File System trong repo gốc. Đây là chương nối hệ điều hành với thế giới thiết bị thật, ổ đĩa thật và fi...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1732,13 +1732,13 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
 <h2>Kết luận</h2>
 <p>Muốn hiểu hiệu năng hệ thống, không thể chỉ nhìn CPU. I/O, caching, file system layout và journaling đều có thể quyết định tốc độ thực tế.</p>
 ]]></content:encoded>
-      <enclosure url="https://duongajaas.github.io/assets/images/os/blockdevicestack.png" type="image/png"/>
+      <enclosure url="https://duongajaas.github.io/Wiki/assets/images/os/blockdevicestack.png" type="image/png"/>
     </item>
     <item>
       <title>IPC and Synchronization</title>
-      <link>https://duongajaas.github.io/os/ipc.html</link>
-      <guid>https://duongajaas.github.io/os/ipc.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">IPC and Synchronization</source>
+      <link>https://duongajaas.github.io/Wiki/os/ipc.html</link>
+      <guid>https://duongajaas.github.io/Wiki/os/ipc.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">IPC and Synchronization</source>
       <description>IPC và Đồng bộ Đây là bản dịch các phần Inter-Process Communication và Synchronization trong repo gốc. Hai chủ đề này thường đi cùng nhau vì bất kỳ cơ chế giao tiếp nào giữa các...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1846,13 +1846,13 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
 <h2>Kết luận</h2>
 <p>Nếu chỉ học khái niệm, mutex và semaphore là đủ để bắt đầu. Nếu làm hệ thống thật, bạn phải đọc thêm về atomic operations, ordering, deadlock và priority inversion.</p>
 ]]></content:encoded>
-      <enclosure url="https://duongajaas.github.io/assets/images/os/msgq.png" type="image/png"/>
+      <enclosure url="https://duongajaas.github.io/Wiki/assets/images/os/msgq.png" type="image/png"/>
     </item>
     <item>
       <title>Kernel &amp; System Call</title>
-      <link>https://duongajaas.github.io/os/kernel-security.html</link>
-      <guid>https://duongajaas.github.io/os/kernel-security.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Kernel &amp; System Call</source>
+      <link>https://duongajaas.github.io/Wiki/os/kernel-security.html</link>
+      <guid>https://duongajaas.github.io/Wiki/os/kernel-security.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Kernel &amp; System Call</source>
       <description>Kernel, System Call và Bảo mật Phần này gom các ý cốt lõi từ Operating Systems Overview và các phần bảo vệ hệ thống trong repo gốc. Đây là chỗ giúp bạn hiểu vì sao OS là lớp “có...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1930,13 +1930,13 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
 <h2>Kết luận</h2>
 <p>Nếu nắm được ranh giới user/kernel và flow system call, bạn sẽ đọc kernel docs và debug lỗi hệ thống tự tin hơn rất nhiều.</p>
 ]]></content:encoded>
-      <enclosure url="https://duongajaas.github.io/assets/images/os/hwprotectionlevels.png" type="image/png"/>
+      <enclosure url="https://duongajaas.github.io/Wiki/assets/images/os/hwprotectionlevels.png" type="image/png"/>
     </item>
     <item>
       <title>Memory Management</title>
-      <link>https://duongajaas.github.io/os/memory.html</link>
-      <guid>https://duongajaas.github.io/os/memory.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Memory Management</source>
+      <link>https://duongajaas.github.io/Wiki/os/memory.html</link>
+      <guid>https://duongajaas.github.io/Wiki/os/memory.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Memory Management</source>
       <description>Quản lý Bộ nhớ Đây là bản dịch chương Memory Management trong repo gốc. Phần này là trung tâm của OS vì nó quyết định cách hệ điều hành phân phối và bảo vệ bộ nhớ giữa các proce...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2037,13 +2037,13 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
 <h2>Kết luận</h2>
 <p>Nếu chỉ học để hiểu lý thuyết, paging và segmentation là đủ. Nếu muốn hiểu hiệu năng thật, phải đọc thêm TLB, cache, huge pages, NUMA và page fault behavior.</p>
 ]]></content:encoded>
-      <enclosure url="https://duongajaas.github.io/assets/images/os/pts.png" type="image/png"/>
+      <enclosure url="https://duongajaas.github.io/Wiki/assets/images/os/pts.png" type="image/png"/>
     </item>
     <item>
       <title>Processes and Threads</title>
-      <link>https://duongajaas.github.io/os/process-thread.html</link>
-      <guid>https://duongajaas.github.io/os/process-thread.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Processes and Threads</source>
+      <link>https://duongajaas.github.io/Wiki/os/process-thread.html</link>
+      <guid>https://duongajaas.github.io/Wiki/os/process-thread.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Processes and Threads</source>
       <description>Tiến trình và Luồng Đây là bản dịch của phần Processes and Process Management và Threads and Concurrency trong repo gốc. Hai chương này là nền của toàn bộ hệ điều hành vì chúng ...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2154,13 +2154,13 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
 <p>| Process | Thread |<br>
 |</p>
 ]]></content:encoded>
-      <enclosure url="https://duongajaas.github.io/assets/images/os/pcb.png" type="image/png"/>
+      <enclosure url="https://duongajaas.github.io/Wiki/assets/images/os/pcb.png" type="image/png"/>
     </item>
     <item>
       <title>CPU Scheduling</title>
-      <link>https://duongajaas.github.io/os/scheduling.html</link>
-      <guid>https://duongajaas.github.io/os/scheduling.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">CPU Scheduling</source>
+      <link>https://duongajaas.github.io/Wiki/os/scheduling.html</link>
+      <guid>https://duongajaas.github.io/Wiki/os/scheduling.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">CPU Scheduling</source>
       <description>Lập lịch CPU Đây là bản dịch của chương Scheduling trong repo gốc. Chương này trả lời câu hỏi: khi có nhiều tiến trình hoặc luồng cùng chờ CPU, OS chọn ai trước. CPU Scheduler l...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2274,13 +2274,13 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
 <h2>Kết luận</h2>
 <p>Nếu học để thi, nắm thuật toán cơ bản là đủ. Nếu học để hiểu kernel thật, phải đọc thêm CFS, run queue và cơ chế preemption của Linux.</p>
 ]]></content:encoded>
-      <enclosure url="https://duongajaas.github.io/assets/images/os/rr1.png" type="image/png"/>
+      <enclosure url="https://duongajaas.github.io/Wiki/assets/images/os/rr1.png" type="image/png"/>
     </item>
     <item>
       <title>Virtualization and Distributed Systems</title>
-      <link>https://duongajaas.github.io/os/virtualization-distributed.html</link>
-      <guid>https://duongajaas.github.io/os/virtualization-distributed.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Virtualization and Distributed Systems</source>
+      <link>https://duongajaas.github.io/Wiki/os/virtualization-distributed.html</link>
+      <guid>https://duongajaas.github.io/Wiki/os/virtualization-distributed.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Virtualization and Distributed Systems</source>
       <description>Ảo hóa và Hệ điều hành Phân tán Đây là bản dịch các chương Virtualization, Remote Procedure Calls, Distributed File Systems và Distributed Shared Memory trong repo gốc. Đây là p...</description>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2417,20 +2417,20 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
 <h2>Kết luận</h2>
 <p>Phần này là cầu nối từ OS truyền thống sang hạ tầng hiện đại: virtualization, RPC, distributed storage và distributed memory.</p>
 ]]></content:encoded>
-      <enclosure url="https://duongajaas.github.io/assets/images/os/hypervisor.png" type="image/png"/>
+      <enclosure url="https://duongajaas.github.io/Wiki/assets/images/os/hypervisor.png" type="image/png"/>
     </item>
     <item>
       <title>MongoDB</title>
-      <link>https://duongajaas.github.io/database/mongodb/</link>
-      <guid>https://duongajaas.github.io/database/mongodb/</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB</source>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
     </item>
     <item>
       <title>MongoDB Aggreation</title>
-      <link>https://duongajaas.github.io/database/mongodb/aggreation.html</link>
-      <guid>https://duongajaas.github.io/database/mongodb/aggreation.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB Aggreation</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/aggreation.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/aggreation.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB Aggreation</source>
       <description>Các hoạt động tổng hợp trong MongoDB Các hoạt động tổng hợp trong MongoDB xử lý các bản ghi dữ liệu và trả về kết quả tính toán. Các hoạt động tổng hợp nhóm các giá trị từ nhiều...</description>
       <category>mongodb</category>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
@@ -2594,9 +2594,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>MongoDB CRUD Operations</title>
-      <link>https://duongajaas.github.io/database/mongodb/crud.html</link>
-      <guid>https://duongajaas.github.io/database/mongodb/crud.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB CRUD Operations</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/crud.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/crud.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB CRUD Operations</source>
       <description>Các thao tác CRUD trong MongoDB I. Các thao tác CRUD cơ bản Các thao tác CRUD trong MongoDB là các thao tác đọc và ghi dữ liệu vào tài liệu (document). Thao tác Create (Tạo) Mon...</description>
       <category>mongodb</category>
       <category>nosql</category>
@@ -2847,9 +2847,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>MongoDB Guide</title>
-      <link>https://duongajaas.github.io/database/mongodb/guide.html</link>
-      <guid>https://duongajaas.github.io/database/mongodb/guide.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB Guide</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/guide.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/guide.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB Guide</source>
       <description>Hướng dẫn MongoDB Giới thiệu MongoDB là một cơ sở dữ liệu dựa trên hệ thống lưu trữ tệp phân tán. Được viết bằng ngôn ngữ C++. Mục tiêu là cung cấp một giải pháp lưu trữ dữ liệu...</description>
       <category>mongodb</category>
       <category>nosql</category>
@@ -2872,9 +2872,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>MongoDB Model Example</title>
-      <link>https://duongajaas.github.io/database/mongodb/model-example.html</link>
-      <guid>https://duongajaas.github.io/database/mongodb/model-example.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB Model Example</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/model-example.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/model-example.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB Model Example</source>
       <description>Ví dụ về mô hình hóa MongoDB Mô hình quan hệ Mô hình nhúng tài liệu một một Mô hình nhúng tài liệu một-một - Mô hình nhúng tài liệu Kết hợp thành: Mô hình nhúng tài liệu một-một...</description>
       <category>db</category>
       <category>mongodb</category>
@@ -3330,9 +3330,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>MongoDB Modeling</title>
-      <link>https://duongajaas.github.io/database/mongodb/modeling.html</link>
-      <guid>https://duongajaas.github.io/database/mongodb/modeling.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB Modeling</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/modeling.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/modeling.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB Modeling</source>
       <description>Mô hình hóa MongoDB Mô hình dữ liệu của MongoDB là một mô hình linh hoạt, trong khi cơ sở dữ liệu quan hệ yêu cầu bạn định nghĩa cấu trúc mô hình bảng trước khi chèn dữ liệu. Tu...</description>
       <category>mongodb</category>
       <category>nosql</category>
@@ -3356,9 +3356,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>MongoDB Index</title>
-      <link>https://duongajaas.github.io/database/mongodb/mongo-index.html</link>
-      <guid>https://duongajaas.github.io/database/mongodb/mongo-index.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB Index</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/mongo-index.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/mongo-index.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB Index</source>
       <description>MongoDB Index Giới thiệu về Index trong MongoDB Tác dụng của Index MongoDB định nghĩa các chỉ mục trên cấp dữ liệu của collection. Chỉ mục thường có thể cải thiện đáng kể hiệu s...</description>
       <category>mongodb</category>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
@@ -3382,9 +3382,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>MongoDB Operation</title>
-      <link>https://duongajaas.github.io/database/mongodb/operation.html</link>
-      <guid>https://duongajaas.github.io/database/mongodb/operation.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB Operation</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/operation.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/operation.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB Operation</source>
       <description>Vận hành MongoDB Cài đặt MongoDB Windows (1) Tải xuống và giải nén Truy cập vào trang web chính thức để tải xuống MongoDB và chọn phiên bản phù hợp tại: Download MongoDB Communi...</description>
       <category>mongodb</category>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
@@ -3462,9 +3462,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>MongoDB Overview</title>
-      <link>https://duongajaas.github.io/database/mongodb/overview.html</link>
-      <guid>https://duongajaas.github.io/database/mongodb/overview.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB Overview</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/overview.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/overview.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB Overview</source>
       <description>MongoDB MOC MongoDB là một cơ sở dữ liệu phân tán dựa trên tài liệu, được viết bằng ngôn ngữ C++. Nó nhằm mục đích cung cấp một giải pháp lưu trữ dữ liệu có hiệu suất cao và có ...</description>
       <category>mongodb</category>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
@@ -3479,9 +3479,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>MongoDB Replication</title>
-      <link>https://duongajaas.github.io/database/mongodb/replication.html</link>
-      <guid>https://duongajaas.github.io/database/mongodb/replication.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB Replication</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/replication.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/replication.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB Replication</source>
       <description>Sao lưu trong MongoDB Sao lưu có thể cung cấp tính sẵn có dự phòng và tăng cường khả năng sẵn có của dữ liệu. Sử dụng nhiều bản sao dữ liệu trên các máy chủ cơ sở dữ liệu khác n...</description>
       <category>db</category>
       <category>mongodb</category>
@@ -3520,9 +3520,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>MongoDB Sharding</title>
-      <link>https://duongajaas.github.io/database/mongodb/sharding.html</link>
-      <guid>https://duongajaas.github.io/database/mongodb/sharding.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB Sharding</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/sharding.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/sharding.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB Sharding</source>
       <description>MongoDB Phân đoạn Giới thiệu về cụm phân đoạn Khi MongoDB cần lưu trữ dữ liệu lớn, một nút đơn không đủ để lưu trữ toàn bộ dữ liệu và có thể không cung cấp được hiệu suất đáng h...</description>
       <category>db</category>
       <category>mongodb</category>
@@ -3608,9 +3608,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>MongoDB Transaction</title>
-      <link>https://duongajaas.github.io/database/mongodb/transaction.html</link>
-      <guid>https://duongajaas.github.io/database/mongodb/transaction.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">MongoDB Transaction</source>
+      <link>https://duongajaas.github.io/Wiki/database/mongodb/transaction.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/mongodb/transaction.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">MongoDB Transaction</source>
       <description>Giao dịch trong MongoDB writeConcern có thể xác định số lượng node cần xác nhận để ghi thành công. Mặc định: Không có thiết lập nào cho replica set nhiều node, do đó có thể mất ...</description>
       <category>mongodb</category>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
@@ -3639,16 +3639,16 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>SQL</title>
-      <link>https://duongajaas.github.io/database/sql/</link>
-      <guid>https://duongajaas.github.io/database/sql/</guid>
-      <source url="https://duongajaas.github.io/rss.xml">SQL</source>
+      <link>https://duongajaas.github.io/Wiki/database/sql/</link>
+      <guid>https://duongajaas.github.io/Wiki/database/sql/</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">SQL</source>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
     </item>
     <item>
       <title>SQL Cheat Sheet</title>
-      <link>https://duongajaas.github.io/database/sql/cheat-sheet.html</link>
-      <guid>https://duongajaas.github.io/database/sql/cheat-sheet.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">SQL Cheat Sheet</source>
+      <link>https://duongajaas.github.io/Wiki/database/sql/cheat-sheet.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/sql/cheat-sheet.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">SQL Cheat Sheet</source>
       <description>SQL Cheat Sheet Câu truy vấn để tìm kiếm dữ liệu SELECT: Được sử dụng để lựa chọn dữ liệu từ cơ sở dữ liệu SELECT * FROM table_name; DISTINCT: Được sử dụng để lọc bỏ các giá trị...</description>
       <category>sql</category>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
@@ -3828,9 +3828,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>SQL DB Design Process</title>
-      <link>https://duongajaas.github.io/database/sql/db-design-process.html</link>
-      <guid>https://duongajaas.github.io/database/sql/db-design-process.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">SQL DB Design Process</source>
+      <link>https://duongajaas.github.io/Wiki/database/sql/db-design-process.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/sql/db-design-process.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">SQL DB Design Process</source>
       <description>Todo</description>
       <category>db</category>
       <category>sql</category>
@@ -3841,9 +3841,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Extend SQL</title>
-      <link>https://duongajaas.github.io/database/sql/extend-sql.html</link>
-      <guid>https://duongajaas.github.io/database/sql/extend-sql.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Extend SQL</source>
+      <link>https://duongajaas.github.io/Wiki/database/sql/extend-sql.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/sql/extend-sql.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Extend SQL</source>
       <description>Mở rộng SQL Cơ sở dữ liệu Bảng Xem thông tin cơ bản của bảng Xem thông tin cột của bảng Làm thế nào để xóa một lượng lớn dữ liệu Nếu bạn muốn xóa một lượng lớn dữ liệu dựa trên ...</description>
       <category>db</category>
       <category>sql</category>
@@ -3881,9 +3881,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>How SQL DB works?</title>
-      <link>https://duongajaas.github.io/database/sql/how-sql-db-works.html</link>
-      <guid>https://duongajaas.github.io/database/sql/how-sql-db-works.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">How SQL DB works?</source>
+      <link>https://duongajaas.github.io/Wiki/database/sql/how-sql-db-works.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/sql/how-sql-db-works.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">How SQL DB works?</source>
       <description>Bắt đầu với Data Structure &amp; Algorithm Độ phức tạp thời gian Đối với cơ sở dữ liệu, điều quan trọng không phải là khối lượng dữ liệu, mà là làm thế nào các hoạt động tăng lên kh...</description>
       <category>sql</category>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
@@ -4768,9 +4768,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>SQL DB Interview</title>
-      <link>https://duongajaas.github.io/database/sql/interview.html</link>
-      <guid>https://duongajaas.github.io/database/sql/interview.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">SQL DB Interview</source>
+      <link>https://duongajaas.github.io/Wiki/database/sql/interview.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/sql/interview.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">SQL DB Interview</source>
       <description>Phỏng vấn về Cơ sở dữ liệu quan hệ Chỉ mục và Ràng buộc Chỉ mục là gì? Chỉ mục (Index) là một cấu trúc được sắp xếp của một hoặc nhiều cột trong bảng cơ sở dữ liệu, được sử dụng...</description>
       <category>db</category>
       <category>sql</category>
@@ -5139,9 +5139,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>SQL Overview</title>
-      <link>https://duongajaas.github.io/database/sql/overview.html</link>
-      <guid>https://duongajaas.github.io/database/sql/overview.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">SQL Overview</source>
+      <link>https://duongajaas.github.io/Wiki/database/sql/overview.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/sql/overview.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">SQL Overview</source>
       <description>SQL Overview Basic How SQL DB works SQL DB Theory SQL DB Concept SQL DB Design Process SQL Language SQL Syntax Foudation Features Extend SQL SQL Cheat Sheet Interview SQL DB Int...</description>
       <category>db</category>
       <category>sql</category>
@@ -5168,9 +5168,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>SQL Syntax Foudation Features</title>
-      <link>https://duongajaas.github.io/database/sql/syntax-features.html</link>
-      <guid>https://duongajaas.github.io/database/sql/syntax-features.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">SQL Syntax Foudation Features</source>
+      <link>https://duongajaas.github.io/Wiki/database/sql/syntax-features.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/sql/syntax-features.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">SQL Syntax Foudation Features</source>
       <description>Các tính năng cơ bản của cú pháp SQL Bài viết này tập trung vào cú pháp cơ bản của ngôn ngữ truy vấn SQL cho cơ sở dữ liệu quan hệ. Vì giới hạn bài viết, chúng tôi tập trung vào...</description>
       <category>db</category>
       <category>sql</category>
@@ -5246,9 +5246,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>SQL DB Theory</title>
-      <link>https://duongajaas.github.io/database/sql/theory.html</link>
-      <guid>https://duongajaas.github.io/database/sql/theory.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">SQL DB Theory</source>
+      <link>https://duongajaas.github.io/Wiki/database/sql/theory.html</link>
+      <guid>https://duongajaas.github.io/Wiki/database/sql/theory.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">SQL DB Theory</source>
       <description>Những điểm cốt lõi về hệ thống cơ sở dữ liệu Giao dịch (Transaction) Khái niệm Giao dịch là một tập hợp các hoạt động thỏa mãn các đặc tính ACID, có thể được thực hiện bằng cách...</description>
       <category>db</category>
       <category>sql</category>
@@ -5274,17 +5274,17 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>JavaScript</title>
-      <link>https://duongajaas.github.io/programming/javascript/</link>
-      <guid>https://duongajaas.github.io/programming/javascript/</guid>
-      <source url="https://duongajaas.github.io/rss.xml">JavaScript</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">JavaScript</source>
       <category>js</category>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
     </item>
     <item>
       <title>Function Accessor</title>
-      <link>https://duongajaas.github.io/programming/javascript/accessor.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/accessor.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Function Accessor</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/accessor.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/accessor.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Function Accessor</source>
       <description>Trình truy cập hàm Hàm truy xuất giá trị Cú pháp getter liên kết một hàm sẽ được gọi khi truy vấn thuộc tính của đối tượng. Cú pháp Tham số: Mô tả Đôi khi cần cho phép truy cập ...</description>
       <category>js</category>
       <category>programming</category>
@@ -5307,9 +5307,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Apply Invocation Pattern</title>
-      <link>https://duongajaas.github.io/programming/javascript/apply-invocation-pattern.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/apply-invocation-pattern.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Apply Invocation Pattern</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/apply-invocation-pattern.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/apply-invocation-pattern.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Apply Invocation Pattern</source>
       <description>s</description>
       <category>js</category>
       <category>programming</category>
@@ -5319,9 +5319,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Arithmetic Operators</title>
-      <link>https://duongajaas.github.io/programming/javascript/arithmetic.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/arithmetic.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Arithmetic Operators</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/arithmetic.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/arithmetic.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Arithmetic Operators</source>
       <description>Toán tử số học Toán tử số học được sử dụng để thực hiện các phép tính số học trên các giá trị số (literal hoặc biến) và trả về một giá trị số. Các toán tử số học tiêu chuẩn bao ...</description>
       <category>js</category>
       <category>programming</category>
@@ -5336,9 +5336,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Array Detection</title>
-      <link>https://duongajaas.github.io/programming/javascript/array-detection.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/array-detection.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Array Detection</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/array-detection.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/array-detection.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Array Detection</source>
       <description>Kiểm tra mảng Có năm phương pháp thông thường để kiểm tra xem một biến có phải là một mảng hay không: Toán tử typeof Toán tử instanceof Hàm tạo đối tượng mảng Array.isArray() Ob...</description>
       <category>js</category>
       <category>programming</category>
@@ -5387,9 +5387,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Array</title>
-      <link>https://duongajaas.github.io/programming/javascript/array.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/array.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Array</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/array.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/array.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Array</source>
       <description>Array Đối tượng Array là đối tượng toàn cục được sử dụng để xây dựng mảng, tương tự như một đối tượng danh sách. Đối tượng Array chủ yếu được sử dụng để lưu trữ nhiều mục dữ liệ...</description>
       <category>js</category>
       <category>programming</category>
@@ -5427,9 +5427,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>ArrayBuffer</title>
-      <link>https://duongajaas.github.io/programming/javascript/arraybuffer.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/arraybuffer.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">ArrayBuffer</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/arraybuffer.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/arraybuffer.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">ArrayBuffer</source>
       <description>ArrayBuffer Đối tượng ArrayBuffer được sử dụng để đại diện cho một bộ đệm dữ liệu nhị phân nguyên thủy có độ dài cố định. ArrayBuffer không thể được truy cập trực tiếp, mà phải ...</description>
       <category>js</category>
       <category>programming</category>
@@ -5473,9 +5473,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Arrow Function Definition</title>
-      <link>https://duongajaas.github.io/programming/javascript/arrow-function.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/arrow-function.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Arrow Function Definition</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/arrow-function.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/arrow-function.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Arrow Function Definition</source>
       <description>Hàm mũi tên - Arrow Function Cú pháp của biểu thức hàm mũi tên ngắn gọn hơn biểu thức hàm thông thường và không có this, arguments, super và new.target. Biểu thức hàm mũi tên th...</description>
       <category>js</category>
       <category>programming</category>
@@ -5718,9 +5718,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Assignment Operators</title>
-      <link>https://duongajaas.github.io/programming/javascript/assignment.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/assignment.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Assignment Operators</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/assignment.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/assignment.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Assignment Operators</source>
       <description>Toán tử gán Một toán tử gán (assignment operator) gán giá trị của toán hạng bên phải cho toán hạng bên trái của nó. Dưới đây là các toán tử gán được định nghĩa trong chuẩn ECMAS...</description>
       <category>js</category>
       <category>programming</category>
@@ -5733,9 +5733,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Async Function Definition</title>
-      <link>https://duongajaas.github.io/programming/javascript/async-function.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/async-function.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Async Function Definition</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/async-function.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/async-function.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Async Function Definition</source>
       <description>Hàm bất đồng bộ - Async Function Hàm async là một cú pháp đơn giản hơn của hàm Generator. Nó được đánh dấu bằng từ khóa async và sử dụng lệnh await để biểu thị các hoạt động bất...</description>
       <category>js</category>
       <category>programming</category>
@@ -5757,9 +5757,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Attributes Object</title>
-      <link>https://duongajaas.github.io/programming/javascript/attributes-object.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/attributes-object.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Attributes Object</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/attributes-object.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/attributes-object.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Attributes Object</source>
       <description>Mô tả thuộc tính đối tượng Phiên bản 5 của ECMA-262 đã định nghĩa các thuộc tính (Attribute) chỉ được sử dụng bên trong để mô tả các thuộc tính (Property) của đối tượng. Các thu...</description>
       <category>js</category>
       <category>programming</category>
@@ -5775,9 +5775,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Class Basic</title>
-      <link>https://duongajaas.github.io/programming/javascript/basic.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/basic.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Class Basic</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/basic.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/basic.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Class Basic</source>
       <description>Cú pháp cơ bản của lớp Khái niệm lớp (class) trong ECMAScript 6 (ES6) thực tế có thể coi là một cú pháp đường dẫn cho cách viết nguyên mẫu đối tượng trong ECMAScript 5 (ES5). Cú...</description>
       <category>js</category>
       <category>programming</category>
@@ -5967,9 +5967,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Bitwise Operators</title>
-      <link>https://duongajaas.github.io/programming/javascript/bitwise.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/bitwise.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Bitwise Operators</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/bitwise.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/bitwise.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Bitwise Operators</source>
       <description>Toán tử bit Toán tử dịch bit xem các toán hạng của nó như là một chuỗi nhị phân 32 bit (gồm các số 0 và 1) thay vì là các số thập phân, bát phân hoặc thập lục phân. Ví dụ: số th...</description>
       <category>js</category>
       <category>programming</category>
@@ -5994,9 +5994,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Block Scope</title>
-      <link>https://duongajaas.github.io/programming/javascript/block-scope.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/block-scope.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Block Scope</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/block-scope.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/block-scope.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Block Scope</source>
       <description>Phạm vi khối (Block Scope) Bất kỳ tập hợp câu lệnh nào nằm trong cặp dấu ngoặc nhọn đều thuộc về một khối, và tất cả các biến được định nghĩa trong khối đó đều không thể nhìn th...</description>
       <category>js</category>
       <category>programming</category>
@@ -6182,9 +6182,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Block</title>
-      <link>https://duongajaas.github.io/programming/javascript/block.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/block.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Block</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/block.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/block.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Block</source>
       <description>Khối Khối (Block) được sử dụng để kết hợp không có hoặc nhiều hơn một câu lệnh. Khối được định nghĩa bởi cặp dấu ngoặc nhọn {} và tạo ra một phạm vi Khối, các biến được định ngh...</description>
       <category>js</category>
       <category>programming</category>
@@ -6241,9 +6241,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Boolean</title>
-      <link>https://duongajaas.github.io/programming/javascript/boolean.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/boolean.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Boolean</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/boolean.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/boolean.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Boolean</source>
       <description>Boolean Đối tượng Boolean là một bao bọc cho giá trị boolean, biểu thị hai giá trị true và false. Cú pháp Hàm tạo Hàm chuyển đổi sang kiểu boolean Khi gọi như một hàm tạo (với t...</description>
       <category>js</category>
       <category>programming</category>
@@ -6261,9 +6261,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Break Statement</title>
-      <link>https://duongajaas.github.io/programming/javascript/break.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/break.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Break Statement</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/break.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/break.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Break Statement</source>
       <description>Câu lệnh break Câu lệnh break được sử dụng để thoát ngay lập tức khỏi vòng lặp nội bộ nhất hoặc câu lệnh switch. Cú pháp Tham số Câu lệnh break có thể chứa một nhãn tùy chọn, ch...</description>
       <category>js</category>
       <category>programming</category>
@@ -6279,9 +6279,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Callback Function</title>
-      <link>https://duongajaas.github.io/programming/javascript/callback.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/callback.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Callback Function</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/callback.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/callback.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Callback Function</source>
       <description>Hàm gọi lại - Callback Hàm gọi lại là một đoạn mã thực thi được truyền vào như một tham số cho một đoạn mã khác, nó được sử dụng để gọi đoạn mã (hàm gọi lại) này khi cần thiết. ...</description>
       <category>js</category>
       <category>programming</category>
@@ -6416,9 +6416,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Cascade Function</title>
-      <link>https://duongajaas.github.io/programming/javascript/cascade.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/cascade.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Cascade Function</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/cascade.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/cascade.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Cascade Function</source>
       <description>Hàm liên kết Hàm liên kết (Cascading Function), còn được gọi là hàm chuỗi (Chained Function), là một kỹ thuật sử dụng mã liên tục trên một đối tượng để lặp lại việc gọi các phươ...</description>
       <category>js</category>
       <category>programming</category>
@@ -6466,9 +6466,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Class Structure Function</title>
-      <link>https://duongajaas.github.io/programming/javascript/class-constructor.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/class-constructor.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Class Structure Function</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/class-constructor.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/class-constructor.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Class Structure Function</source>
       <description>Hàm tạo của lớp Cấu trúc gần giống lớp trong ES5 Trong ES5, cách tạo lớp là: tạo một hàm tạo, định nghĩa một phương thức và gán nó cho nguyên mẫu của hàm tạo. Lớp trong ES6 Triể...</description>
       <category>js</category>
       <category>programming</category>
@@ -6762,9 +6762,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Closures</title>
-      <link>https://duongajaas.github.io/programming/javascript/closures.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/closures.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Closures</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/closures.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/closures.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Closures</source>
       <description>Closure (Đóng gói) Trước khi hiểu về closure (đóng gói), chúng ta cần hiểu một số khái niệm sau: Đầu tiên, cần hiểu về môi trường thực thi (execution context), môi trường thực t...</description>
       <category>js</category>
       <category>programming</category>
@@ -6893,9 +6893,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Combination Constructor And Prototype Pattern</title>
-      <link>https://duongajaas.github.io/programming/javascript/combination-constructor-and-prototype-pattern.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/combination-constructor-and-prototype-pattern.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Combination Constructor And Prototype Pattern</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/combination-constructor-and-prototype-pattern.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/combination-constructor-and-prototype-pattern.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Combination Constructor And Prototype Pattern</source>
       <description>Kết hợp sử dụng mô hình hàm tạo và mô hình nguyên mẫu Mô hình hàm tạo được sử dụng để định nghĩa các thuộc tính của thực thể, trong khi mô hình nguyên mẫu được sử dụng để định n...</description>
       <category>js</category>
       <category>programming</category>
@@ -6937,9 +6937,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Combination Inheritance</title>
-      <link>https://duongajaas.github.io/programming/javascript/combination-inheritance.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/combination-inheritance.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Combination Inheritance</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/combination-inheritance.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/combination-inheritance.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Combination Inheritance</source>
       <description>Kế thừa kết hợp Kế thừa kết hợp (Combination Inheritance) (còn được gọi là kế thừa giả cổ điển) là một mô hình kế thừa kết hợp giữa chuỗi nguyên mẫu và sử dụng hàm tạo để kế thừ...</description>
       <category>js</category>
       <category>programming</category>
@@ -7029,9 +7029,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Comma Operator</title>
-      <link>https://duongajaas.github.io/programming/javascript/comma.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/comma.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Comma Operator</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/comma.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/comma.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Comma Operator</source>
       <description>Toán tử dấu phẩy Toán tử dấu phẩy là một toán tử hai ngôi, các toán hạng của nó có thể là bất kỳ kiểu dữ liệu nào. Nó tính toán toán hạng bên trái trước, sau đó tính toán toán h...</description>
       <category>js</category>
       <category>programming</category>
@@ -7069,9 +7069,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Comparation Operators</title>
-      <link>https://duongajaas.github.io/programming/javascript/comparation.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/comparation.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Comparation Operators</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/comparation.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/comparation.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Comparation Operators</source>
       <description>Toán tử so sánh Toán tử so sánh so sánh các toán hạng của nó và trả về một giá trị logic dựa trên xem biểu thức có đúng hay không. Toán tử so sánh có thể chia thành toán tử quan...</description>
       <category>js</category>
       <category>programming</category>
@@ -7092,9 +7092,9 @@ Tất cả interface đã nói ở trên đều là interface dựa trên chươ
     </item>
     <item>
       <title>Compilation</title>
-      <link>https://duongajaas.github.io/programming/javascript/compilation.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/compilation.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Compilation</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/compilation.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/compilation.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Compilation</source>
       <description>Quá trình biên dịch Nguyên lý biên dịch JavaScript là một ngôn ngữ biên dịch. Tuy nhiên, khác với các ngôn ngữ biên dịch truyền thống, JavaScript không được biên dịch trước và k...</description>
       <category>js</category>
       <category>programming</category>
@@ -7181,9 +7181,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Concurency Model</title>
-      <link>https://duongajaas.github.io/programming/javascript/concurency-model.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/concurency-model.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Concurency Model</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/concurency-model.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/concurency-model.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Concurency Model</source>
       <description>Mô hình đồng thời Giải thích thuật ngữ Trước khi hiểu về cơ chế đơn luồng và không chặn của JavaScript, hãy hiểu một số cặp thuật ngữ dễ nhầm lẫn. Khái niệm và mối quan hệ giữa ...</description>
       <category>js</category>
       <category>programming</category>
@@ -7237,9 +7237,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Conditional Operator</title>
-      <link>https://duongajaas.github.io/programming/javascript/conditional.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/conditional.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Conditional Operator</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/conditional.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/conditional.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Conditional Operator</source>
       <description>Toán tử điều kiện Toán tử điều kiện (Conditional Operator) là duy nhất một toán tử ba ngôi (có ba toán hạng) trong JavaScript, thường được gọi là toán tử ba ngôi. Cơ bản, điều n...</description>
       <category>js</category>
       <category>programming</category>
@@ -7262,18 +7262,18 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Constructor Invocation Pattern</title>
-      <link>https://duongajaas.github.io/programming/javascript/constructor-invocation-pattern.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/constructor-invocation-pattern.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Constructor Invocation Pattern</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/constructor-invocation-pattern.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/constructor-invocation-pattern.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Constructor Invocation Pattern</source>
       <category>js</category>
       <category>programming</category>
       <pubDate>Mon, 04 May 2026 02:48:21 GMT</pubDate>
     </item>
     <item>
       <title>Constructor Pattern</title>
-      <link>https://duongajaas.github.io/programming/javascript/constructor-pattern.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/constructor-pattern.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Constructor Pattern</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/constructor-pattern.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/constructor-pattern.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Constructor Pattern</source>
       <description>Mô hình hàm tạo - Contructor Pattern Trong ECMAScript, hàm tạo được sử dụng để tạo ra các đối tượng của một loại cụ thể. Các hàm tạo nguyên bản như Object và Array sẽ tự động xu...</description>
       <category>js</category>
       <category>programming</category>
@@ -7342,9 +7342,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Constructor Stealing</title>
-      <link>https://duongajaas.github.io/programming/javascript/constructor-stealing.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/constructor-stealing.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Constructor Stealing</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/constructor-stealing.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/constructor-stealing.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Constructor Stealing</source>
       <description>Kế thừa bằng cách mượn hàm tạo Kế thừa bằng cách mượn hàm tạo (Constructor Stealing) là việc gọi hàm tạo của lớp cha trong hàm tạo của lớp con để thực hiện việc kế thừa các thuộ...</description>
       <category>js</category>
       <category>programming</category>
@@ -7417,9 +7417,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Constructor Function</title>
-      <link>https://duongajaas.github.io/programming/javascript/constructor.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/constructor.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Constructor Function</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/constructor.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/constructor.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Constructor Function</source>
       <description>Hàm tạo - Constructor Trong các ngôn ngữ hướng đối tượng (OOP) điển hình như Java, có khái niệm về lớp, lớp là mẫu của đối tượng, và đối tượng là một thể hiện của lớp. Tuy nhiên...</description>
       <category>js</category>
       <category>programming</category>
@@ -7485,9 +7485,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Continue Statement</title>
-      <link>https://duongajaas.github.io/programming/javascript/continue.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/continue.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Continue Statement</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/continue.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/continue.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Continue Statement</source>
       <description>Câu lệnh continue Câu lệnh continue được sử dụng để kết thúc lần lặp hiện tại (hoặc nhãn) của vòng lặp và tiếp tục với lần lặp tiếp theo của vòng lặp. Cú pháp Tham số Mô tả Sự k...</description>
       <category>js</category>
       <category>programming</category>
@@ -7503,9 +7503,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Cross Module Constant</title>
-      <link>https://duongajaas.github.io/programming/javascript/cross-module-constant.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/cross-module-constant.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Cross Module Constant</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/cross-module-constant.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/cross-module-constant.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Cross Module Constant</source>
       <description>Hằng số chuyển qua các module Vì biến được khai báo bằng const chỉ có hiệu lực trong khối mã hiện tại, nếu muốn đặt hằng số chuyển qua các module (tức là chuyển qua nhiều tệp), ...</description>
       <category>js</category>
       <category>programming</category>
@@ -7551,9 +7551,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Function Currying</title>
-      <link>https://duongajaas.github.io/programming/javascript/currying.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/currying.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Function Currying</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/currying.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/currying.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Function Currying</source>
       <description>Hàm Currying Trong khoa học máy tính, Currying, còn được gọi là phần tử hóa, là một kỹ thuật chuyển đổi một hàm sử dụng nhiều tham số thành một chuỗi các hàm sử dụng một tham số...</description>
       <category>js</category>
       <category>programming</category>
@@ -7736,9 +7736,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Data Types</title>
-      <link>https://duongajaas.github.io/programming/javascript/data-types.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/data-types.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Data Types</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/data-types.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/data-types.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Data Types</source>
       <description>JavaScript là một ngôn ngữ weakly typed hoặc còn được gọi là ngôn ngữ động. Điều này có nghĩa là bạn không cần khai báo kiểu dữ liệu của biến trước, kiểu dữ liệu sẽ được xác địn...</description>
       <category>js</category>
       <category>programming</category>
@@ -7868,9 +7868,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Date</title>
-      <link>https://duongajaas.github.io/programming/javascript/date.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/date.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Date</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/date.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/date.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Date</source>
       <description>Date Đối tượng Date là một kiểu dữ liệu được tích hợp sẵn trong ngôn ngữ JavaScript, được sử dụng để thao tác với ngày tháng và thời gian. Đối tượng Date dựa trên số mili giây t...</description>
       <category>js</category>
       <category>programming</category>
@@ -7897,9 +7897,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Debounce</title>
-      <link>https://duongajaas.github.io/programming/javascript/debounce.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/debounce.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Debounce</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/debounce.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/debounce.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Debounce</source>
       <description>Hàm debounce Hàm debounce: Trong trường hợp có nhiều lần kích hoạt liên tục, chỉ khi có đủ thời gian rảnh rỗi, mã lệnh mới được thực thi một lần. Nếu chưa thực thi xong thì hủy ...</description>
       <category>js</category>
       <category>programming</category>
@@ -8020,9 +8020,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Variable Declaration</title>
-      <link>https://duongajaas.github.io/programming/javascript/declaration.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/declaration.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Variable Declaration</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/declaration.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/declaration.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Variable Declaration</source>
       <description>Khai báo biến Biến trong ECMAScript là kiểu dữ liệu lỏng lẻo, có nghĩa là nó có thể được sử dụng để lưu trữ bất kỳ loại dữ liệu nào. Nói cách khác, mỗi biến chỉ là một vị trí lư...</description>
       <category>js</category>
       <category>programming</category>
@@ -8143,9 +8143,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>decodeURI</title>
-      <link>https://duongajaas.github.io/programming/javascript/decodeURI.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/decodeURI.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">decodeURI</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/decodeURI.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/decodeURI.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">decodeURI</source>
       <description>decodeURI Hàm decodeURI() được sử dụng để giải mã một chuỗi đã được mã hóa của định danh tài nguyên thống nhất (URI) và trả về chuỗi không mã hóa. Hàm này thuộc về đối tượng Glo...</description>
       <category>js</category>
       <category>programming</category>
@@ -8161,9 +8161,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>decodeURIComponent</title>
-      <link>https://duongajaas.github.io/programming/javascript/decodeURIComponent.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/decodeURIComponent.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">decodeURIComponent</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/decodeURIComponent.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/decodeURIComponent.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">decodeURIComponent</source>
       <description>decodeURIComponent Hàm decodeURIComponent() được sử dụng để giải mã một thành phần đã được mã hóa của định danh tài nguyên thống nhất (URI) và trả về chuỗi không mã hóa. Hàm này...</description>
       <category>js</category>
       <category>programming</category>
@@ -8179,9 +8179,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Default Parameters</title>
-      <link>https://duongajaas.github.io/programming/javascript/default-params.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/default-params.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Default Parameters</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/default-params.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/default-params.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Default Parameters</source>
       <description>Tham số mặc định Thường thì, người gọi hàm không cần truyền tất cả các tham số có thể có, các tham số không được truyền sẽ được điền bằng giá trị mặc định. Trong JavaScript, các...</description>
       <category>js</category>
       <category>programming</category>
@@ -8520,9 +8520,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>delete</title>
-      <link>https://duongajaas.github.io/programming/javascript/delete.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/delete.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">delete</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/delete.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/delete.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">delete</source>
       <description>delete Toán tử delete được sử dụng để xóa một thuộc tính của đối tượng. Khi không còn tham chiếu nào đến thuộc tính đó, nó sẽ được tự động giải phóng. Cú pháp expression là kết ...</description>
       <category>js</category>
       <category>programming</category>
@@ -8541,9 +8541,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Detructing Assignment</title>
-      <link>https://duongajaas.github.io/programming/javascript/detructing.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/detructing.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Detructing Assignment</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/detructing.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/detructing.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Detructing Assignment</source>
       <description>Gán giá trị theo mẫu Cú pháp gán giá trị theo mẫu (Destructuring) là một biểu thức JavaScript, cho phép trích xuất giá trị từ một mảng hoặc thuộc tính từ một đối tượng và gán ch...</description>
       <category>js</category>
       <category>programming</category>
@@ -8953,9 +8953,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Do While Statement</title>
-      <link>https://duongajaas.github.io/programming/javascript/do-while.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/do-while.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Do While Statement</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/do-while.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/do-while.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Do While Statement</source>
       <description>Câu lệnh do…while Câu lệnh do…while tạo ra một vòng lặp thực hiện các câu lệnh chỉ định cho đến khi giá trị của condition là false. Câu lệnh statement được thực hiện trước khi k...</description>
       <category>js</category>
       <category>programming</category>
@@ -8973,9 +8973,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Durable Constructor Pattern</title>
-      <link>https://duongajaas.github.io/programming/javascript/durable-constructor-pattern.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/durable-constructor-pattern.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Durable Constructor Pattern</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/durable-constructor-pattern.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/durable-constructor-pattern.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Durable Constructor Pattern</source>
       <description>Mô hình hàm tạo an toàn Đối tượng an toàn, được hiểu là không có thuộc tính công khai và các phương thức của nó không tham chiếu đến this. Mô hình hàm tạo an toàn rất phù hợp để...</description>
       <category>js</category>
       <category>programming</category>
@@ -9009,9 +9009,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Dynamic Import</title>
-      <link>https://duongajaas.github.io/programming/javascript/dynamic-import.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/dynamic-import.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Dynamic Import</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/dynamic-import.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/dynamic-import.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Dynamic Import</source>
       <description>Tải động Lệnh import được phân tích tĩnh bởi trình thông dịch JavaScript, được thực thi trước các lệnh khác trong module (lệnh import được gọi là liên kết). Do đó, mã dưới đây s...</description>
       <category>js</category>
       <category>programming</category>
@@ -9110,9 +9110,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Dynamic Prototype Pattern</title>
-      <link>https://duongajaas.github.io/programming/javascript/dynamic-prototype-pattern.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/dynamic-prototype-pattern.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Dynamic Prototype Pattern</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/dynamic-prototype-pattern.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/dynamic-prototype-pattern.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Dynamic Prototype Pattern</source>
       <description>Mô hình nguyên mẫu động Mô hình nguyên mẫu động đóng gói tất cả thông tin trong hàm tạo và khởi tạo nguyên mẫu trong hàm tạo (chỉ khởi tạo nguyên mẫu khi đối tượng đầu tiên được...</description>
       <category>js</category>
       <category>programming</category>
@@ -9143,9 +9143,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>encodeURI</title>
-      <link>https://duongajaas.github.io/programming/javascript/encodeURI.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/encodeURI.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">encodeURI</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/encodeURI.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/encodeURI.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">encodeURI</source>
       <description>encodeURI Hàm encodeURI() được sử dụng để chuyển đổi một chuỗi URI thành một chuỗi đã được mã hóa theo định dạng escape sử dụng UTF-8. Hàm này thuộc về đối tượng Global và được ...</description>
       <category>js</category>
       <category>programming</category>
@@ -9161,9 +9161,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>encodeURIComponent</title>
-      <link>https://duongajaas.github.io/programming/javascript/encodeURIComponent.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/encodeURIComponent.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">encodeURIComponent</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/encodeURIComponent.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/encodeURIComponent.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">encodeURIComponent</source>
       <description>encodeURIComponent Hàm encodeURIComponent() được sử dụng để mã hóa các thành phần hợp lệ của định danh tài nguyên thống nhất (URI) và trả về chuỗi đã được mã hóa. Hàm này thuộc ...</description>
       <category>js</category>
       <category>programming</category>
@@ -9179,9 +9179,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Error</title>
-      <link>https://duongajaas.github.io/programming/javascript/error.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/error.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Error</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/error.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/error.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Error</source>
       <description>Error Đối tượng Error là một đối tượng tích hợp sẵn để tạo ra một đối tượng ngoại lệ, được ném ra khi xảy ra lỗi trong quá trình thực thi. Đối tượng Error cũng có thể được sử dụ...</description>
       <category>js</category>
       <category>programming</category>
@@ -9196,9 +9196,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>eval</title>
-      <link>https://duongajaas.github.io/programming/javascript/eval.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/eval.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">eval</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/eval.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/eval.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">eval</source>
       <description>eval Hàm eval() được sử dụng để tính toán và thực thi mã JavaScript được biểu diễn dưới dạng chuỗi. Hàm eval() cho phép JavaScript thực thi mã nguồn JavaScript một cách động. Hà...</description>
       <category>js</category>
       <category>programming</category>
@@ -9214,9 +9214,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Event Loop</title>
-      <link>https://duongajaas.github.io/programming/javascript/event-loop.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/event-loop.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Event Loop</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/event-loop.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/event-loop.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Event Loop</source>
       <description>Vòng lặp sự kiện (Event Loop) Để điều phối sự kiện, tương tác người dùng, script, hiển thị giao diện người dùng và yêu cầu mạng, trình duyệt phải sử dụng cơ chế vòng lặp sự kiện...</description>
       <category>js</category>
       <category>programming</category>
@@ -9301,9 +9301,9 @@ Quá trình biên dịch</p>
     </item>
     <item>
       <title>Excution Context Stack</title>
-      <link>https://duongajaas.github.io/programming/javascript/excution-context-stack.html</link>
-      <guid>https://duongajaas.github.io/programming/javascript/excution-context-stack.html</guid>
-      <source url="https://duongajaas.github.io/rss.xml">Excution Context Stack</source>
+      <link>https://duongajaas.github.io/Wiki/programming/javascript/excution-context-stack.html</link>
+      <guid>https://duongajaas.github.io/Wiki/programming/javascript/excution-context-stack.html</guid>
+      <source url="https://duongajaas.github.io/Wiki/rss.xml">Excution Context Stack</source>
       <description>Ngăn xếp ngữ cảnh thực thi JS Excution Context Lifecycle.excalidrawJS Excution Context Lifecycle.excalidraw Khi chúng ta gọi một hàm (kích hoạt), một ngữ cảnh thực thi mới sẽ đư...</description>
       <category>js</category>
       <category>programming</category>
