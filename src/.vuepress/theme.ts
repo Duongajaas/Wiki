@@ -145,17 +145,19 @@ export default MyTheme({
       components: ["BiliBili", "Badge"],
     },
 
-    blog: {
-      filter: ({ frontmatter }) => {
+     blog: {
+      filter: ({ filePathRelative, frontmatter }) => {
         if (!frontmatter.article && frontmatter.news) return true;
+
         return true;
       },
+
       type: [
         {
           key: "news",
           filter: (page) => page.frontmatter.news === true,
-          layout: "News",
-          frontmatter: () => ({ title: "Tin nhanh" }),
+          layout: "",
+          frontmatter: () => ({ title: "Talk" }),
         },
       ],
     },

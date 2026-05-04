@@ -21,6 +21,11 @@ export default defineUserConfig({
   base: "/",
   lang: "vi-VN",
   head: [["meta", { name: "referrer", content: "no-referrer-when-downgrade" }]],
+  extendsPage: (page) => {
+    if (page.frontmatter.layout === "") {
+      delete page.frontmatter.layout;
+    }
+  },
   locales: {
     "/": {
       lang: "vi-VN",

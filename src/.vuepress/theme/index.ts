@@ -17,6 +17,10 @@ export const MyTheme = (options: ThemeOptions): Theme => {
         __dirname,
         "./components/PageFooter.vue"
       ),
+      "@theme/layouts/News": path.resolve(
+        __dirname,
+        "./layouts/News.vue"
+      ),
       "@theme-hope/modules/blog/components/BlogHero": path.resolve(
         __dirname,
         "./components/BlogHero.vue"
