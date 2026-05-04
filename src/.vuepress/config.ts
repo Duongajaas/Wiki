@@ -18,7 +18,7 @@ import metingPlugin from "vuepress-plugin-meting2";
 
 const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
-  base: "/",
+  base: "/Wiki/",
   lang: "vi-VN",
   head: [["meta", { name: "referrer", content: "no-referrer-when-downgrade" }]],
   extendsPage: (page) => {
