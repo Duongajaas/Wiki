@@ -1,0 +1,73 @@
+name: 🐛 Báo cáo lỗi | Bug report
+description: Create a report to help us improve
+title: "[Bug]"
+labels:
+  - bug
+assignees: Duongajaas
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: |-
+        Make SURE that you follow these statements.
+      options:
+        - label: I cloned this repository.
+          required: true
+          
+        - label: I am using **LTS** version of Node.js.
+          required: true
+
+        - label: I am using the **latest v2 version** of VuePress and VuePress official plugins.
+          required: true
+
+        - label: I am using the **latest v2 version** of vuepress-theme-hope and all plugins in this repo.
+          required: true
+
+        - label: I followed the docs and I double checked my configuration.
+          required: true
+
+        - label: I have searched [FAQ](https://theme-hope.vuejs.press/faq/) and I did not find the answer.
+          required: true
+
+  - type: input
+    id: package
+    attributes:
+      label: Package name
+      description: Which package are you reporting
+      value: vuepress-theme-hope
+      placeholder: package name
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: operating-systems
+    attributes:
+      label: Which operating system are you using?
+      description: You may select more than one. Don’t select anything if it's not about the environment.
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Describe the bug
+
+        > If applicable, add screenshots and log to help explain your problem.(Nếu có liên quan, vui lòng thêm ảnh chụp màn hình và nhật ký để giúp giải thích vấn đề của bạn.)
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.(Mô tả rõ ràng và ngắn gọn về lỗi là gì.)
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: If you are not reporting something obvious, a minimal reproduction repo and related log is required.(Nếu bạn không báo cáo điều gì đó rõ ràng, kho lưu trữ có thể tái hiện tối thiểu và nhật ký liên quan là bắt buộc.)
+      placeholder: Add any other context about the problem here. Especially the issue occurs in certain OS, browser or configuration.(Đên thêm bất kỳ bối cảnh khác về vấn đề ở đây. Đặc biệt là vấn đề xảy ra trong một số hệ điều hành, trình duyệt hoặc cấu hình.)

@@ -1,0 +1,101 @@
+import { sidebar } from "vuepress-theme-hope";
+
+export const zhSidebar = sidebar({
+  "/": [
+    "",
+    {
+      text: "How to Use",
+      icon: "creative",
+      prefix: "demo/",
+      link: "demo/",
+      children: "structure",
+    },
+    {
+      text: "Code Notes",
+      icon: "note",
+      prefix: "posts/",
+      // collapsible: true,
+      children: [
+        {
+          text: "iOS",
+          icon: "hk-apple",
+          prefix: "iOS/",
+          link: "iOS/",
+          // children: ["swift/", "source/", "other/", "tool/", "system/", "ui/"],
+        },
+        {
+          text: "Cross-platform Development",
+          icon: "relation",
+          prefix: "cross-platform/",
+          link: "cross-platform/",
+          // children: ["Flutter/", "ReactNative/"],
+        },
+        {
+          text: "Frontend Development",
+          icon: "code",
+          prefix: "Web/",
+          link: "Web/",
+          // children: ["Browser/", "JavaScript/", "CSS/", "node/", "Vue/"],
+        },
+        {
+          text: "Linux",
+          icon: "linux",
+          prefix: "Linux/",
+          link: "Linux/",
+        },
+        {
+          text: "Python",
+          icon: "python",
+          prefix: "Python/",
+          link: "Python/",
+        },
+        {
+          text: "Rust",
+          icon: "hk-rust",
+          prefix: "Rust/",
+          link: "Rust/",
+        },
+      ],
+    },
+    {
+      text: "Software/Tools Tutorials",
+      icon: "software",
+      prefix: "tutorial/",
+      link: "tutorial/",
+    },
+    {
+      text: "Blog Related",
+      icon: "blog",
+      prefix: "blog/",
+      link: "blog/",
+    },
+    {
+      text: "Site Collections",
+      icon: "sitemap",
+      prefix: "site",
+      link: "site/",
+      children: "structure",
+    },
+    {
+      text: "Essays",
+      icon: "flower",
+      prefix: "private/",
+      children: "structure",
+    },
+    {
+      text: "About",
+      icon: "info",
+      prefix: "about/",
+      link: "about",
+    },
+  ],
+  "/posts/Linux/": "structure",
+  "/posts/Python/": "structure",
+  "/posts/cross-platform/Flutter/": "structure",
+  "/posts/cross-platform/ReactNative/": "structure",
+  "/posts/iOS/": "structure",
+  "/posts/Web/": "structure",
+  "/site/": "structure",
+  "/blog": "structure",
+  "/tutorial": "structure",
+});

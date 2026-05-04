@@ -1,0 +1,46 @@
+name: Triển khai tài liệu
+
+on:
+  push:
+    branches:
+      # Đảm bảo đây là tên nhánh bạn đang sử dụng
+      - main
+
+jobs:
+  deploy-gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0
+          # Nếu tài liệu của bạn cần các mô-đun con Git, bỏ lệnh chú thích dòng tiếp theo
+          submodules: true
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+          
+      - name: Thiết lập Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: 'pnpm'
+
+      - name: Cài đặt phụ thuộc
+        run: pnpm install --frozen-lockfile
+
+      - name: Xây dựng tài liệu
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          pnpm build
+          > src/.vuepress/dist/.nojekyll
+
+      - name: Triển khai tài liệu
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # Đây là tên nhánh mà tài liệu được triển khai
+          branch: gh-pages
+          folder: src/.vuepress/dist
+          token: ${{ secrets.PAT_TOKEN }}
