@@ -4,16 +4,16 @@
 
 Đây là source cho trang Wiki cá nhân của **Le Quoc Duong**. Trang được dùng để ghi chú kiến thức, lưu tài liệu học tập, tổng hợp kinh nghiệm làm project và chia sẻ các bài viết kỹ thuật.
 
-Website: https://duongajaas.github.io/Wiki/
+Trang web: https://duongajaas.github.io/Wiki/
 
 ## Nội dung chính
 
-- Programming: JavaScript, TypeScript, backend notes và các ghi chú lập trình.
-- Networking: kiến thức mạng máy tính, routing, switching, VLAN, NAT, VPN/IPSec.
-- Algorithms & DSA: thuật toán, cấu trúc dữ liệu và ghi chú luyện tập.
-- Database: SQL, MySQL, MongoDB.
-- Operating Systems: process, thread, memory, filesystem, IPC, scheduling.
-- Projects: tài liệu cho các project như BachHoa và NT131 Smart Parking.
+- Lập trình: JavaScript, TypeScript, ghi chú backend và các ghi chú phát triển phần mềm.
+- Mạng máy tính: routing, switching, VLAN, NAT, VPN/IPSec và các giao thức nền tảng.
+- Thuật toán & DSA: thuật toán, cấu trúc dữ liệu và ghi chú luyện tập.
+- Cơ sở dữ liệu: SQL, MySQL, MongoDB.
+- Hệ điều hành: process, thread, memory, filesystem, IPC, scheduling.
+- Dự án: tài liệu cho các project như BachHoa và NT131 Smart Parking.
 
 ## Công nghệ
 
@@ -52,7 +52,7 @@ pnpm run dev
 
 Dev server mặc định chạy theo cấu hình VuePress trong `src/.vuepress/config.ts`.
 
-## Build
+## Build production
 
 ```bash
 pnpm run build
@@ -69,11 +69,11 @@ src/.vuepress/dist
 ```bash
 pnpm run dev         # Chạy VuePress dev server
 pnpm run clean-dev   # Chạy dev server và xóa cache
-pnpm run build       # Build static site
+pnpm run build       # Build static site cho production
 pnpm run update-package
 ```
 
-## Deploy
+## Triển khai
 
 Site được cấu hình với `base: "/Wiki/"` để deploy lên GitHub Pages tại:
 

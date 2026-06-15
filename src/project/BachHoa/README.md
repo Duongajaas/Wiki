@@ -8,30 +8,30 @@
 
 Nền tảng thương mại điện tử Bach Hoa với hệ thống quản trị admin, frontend web, mobile app, và chatbot AI.
 
-## 📋 Cấu trúc Project
+## 📋 Cấu trúc dự án
 
 ```
 do_an_2/
-├── backend/              # Node.js API Server
-├── admin-web/           # Admin Management Web (React)
-├── android/           # Mobile App (Android)
-├── chatbotRAG/             # AI Chatbot (FastAPI)
+├── backend/              # API server Node.js
+├── admin-web/            # Web quản trị React
+├── android/              # Ứng dụng Android
+├── chatbotRAG/           # Chatbot AI FastAPI
 └── README.md            # File này
 ```
 
-## 🚀 Hướng Dẫn Setup
+## 🚀 Hướng dẫn cài đặt
 
-### 📦 Yêu Cầu Hệ Thống
+### 📦 Yêu cầu hệ thống
 
 - **Node.js**: v16+ (cho Backend và Admin Web)
 - **Python**: v3.8+ (cho Chatbot)
 - **MongoDB**: v4.4+ (cơ sở dữ liệu)
 - **Git**: Cho việc clone repository
-- **npm** hoặc **yarn**: Package manager cho Node.js
+- **npm** hoặc **yarn**: package manager cho Node.js
 
 ---
 
-## 1️⃣ Backend Setup
+## 1️⃣ Cài đặt backend
 
 ### Bước 1: Vào thư mục Backend
 
@@ -39,7 +39,7 @@ do_an_2/
 cd backend
 ```
 
-### Bước 2: Cài đặt Dependencies
+### Bước 2: Cài đặt dependencies
 
 ```bash
 npm install
@@ -99,7 +99,7 @@ curl http://localhost:5000/api/products
 
 ---
 
-## 2️⃣ Admin Web Setup
+## 2️⃣ Cài đặt Admin Web
 
 ### Bước 1: Vào thư mục Admin Web
 
@@ -107,7 +107,7 @@ curl http://localhost:5000/api/products
 cd admin-web
 ```
 
-### Bước 2: Cài đặt Dependencies
+### Bước 2: Cài đặt dependencies
 
 ```bash
 npm install
@@ -141,7 +141,7 @@ Admin Web sẽ chạy tại: **http://localhost:5173** (hoặc port khác nếu 
 
 ---
 
-## 3️⃣ Chatbot Setup
+## 3️⃣ Cài đặt chatbot
 
 ### Bước 1: Vào thư mục Chatbot
 
@@ -149,7 +149,7 @@ Admin Web sẽ chạy tại: **http://localhost:5173** (hoặc port khác nếu 
 cd chatbotRAG
 ```
 
-### Bước 2: Tạo Virtual Environment (Python)
+### Bước 2: Tạo môi trường ảo Python
 
 **Windows:**
 
@@ -165,7 +165,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### Bước 3: Cài đặt Dependencies
+### Bước 3: Cài đặt dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -180,7 +180,7 @@ Tạo file `.env` trong thư mục `chatbotRAG`:
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-### Bước 5: Build Database Chroma
+### Bước 5: Build database Chroma
 
 ```bash
 python build_db.py
@@ -196,7 +196,7 @@ uvicorn main:app --port 8001
 
 Chatbot sẽ chạy tại: **http://127.0.0.1:8001**
 
-### Test Chatbot
+### Kiểm tra chatbot
 
 ```bash
 # Truy cập Swagger UI:
@@ -210,7 +210,7 @@ curl -X POST "http://127.0.0.1:8001/chat" \
 
 ---
 
-## 📱 Mobile App (Android)
+## 📱 Ứng dụng mobile Android
 
 ### Bước 1: Vào thư mục android
 
@@ -218,7 +218,7 @@ curl -X POST "http://127.0.0.1:8001/chat" \
 cd android
 ```
 
-### Bước 2: Build Android App
+### Bước 2: Build ứng dụng Android
 
 ```bash
 # Sử dụng Gradle
@@ -227,7 +227,7 @@ cd android
 # Hoặc trực tiếp mở Android Studio và build từ đó
 ```
 
-### Bước 3: Configure API URL
+### Bước 3: Cấu hình API URL
 
 Sửa file `app/src/main/java/.../ApiClient.java`:
 
@@ -239,9 +239,9 @@ private static final String BASE_URL = "http://your_local_ip:5000"; // Cho devic
 
 ---
 
-## 🔄 Chạy Tất Cả Cùng Lúc
+## 🔄 Chạy tất cả cùng lúc
 
-### Option 1: Mở nhiều terminal
+### Cách 1: Mở nhiều terminal
 
 **Terminal 1 - Backend:**
 
@@ -267,9 +267,9 @@ uvicorn main:app --port 8001 --reload
 
 ---
 
-## 🗄️ Database Setup
+## 🗄️ Cài đặt database
 
-### MongoDB Local
+### MongoDB local
 
 ```bash
 # Windows
@@ -282,7 +282,7 @@ brew services start mongodb-community
 sudo systemctl start mongod
 ```
 
-### MongoDB Atlas (Cloud)
+### MongoDB Atlas cloud
 
 1. Tạo tài khoản tại https://www.mongodb.com/cloud/atlas
 2. Tạo cluster mới
@@ -293,7 +293,7 @@ sudo systemctl start mongod
 MONGODB_URI=mongodb+srv://username:password@cluster-name.mongodb.net/bach_hoa
 ```
 
-### Seed Database (tùy chọn)
+### Seed database (tùy chọn)
 
 ```bash
 cd backend
@@ -302,9 +302,9 @@ node scripts/seedCompleteDatabase.js
 
 ---
 
-## 📝 API Documentation
+## 📝 Tài liệu API
 
-Backend API documentation có sẵn trong file:
+Tài liệu Backend API có sẵn trong file:
 
 ```
 backend/API_COMPLETE_DOCUMENTATION.js

@@ -7,4 +7,4 @@ timeline: false
 icon: tool
 ---
 
-Category: DevOps. Add DevOps posts here.
+Chuyên mục DevOps, ghi chú về công cụ, quy trình build/deploy, môi trường chạy ứng dụng và tự động hóa.

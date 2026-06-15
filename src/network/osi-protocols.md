@@ -116,18 +116,18 @@ Nó phù hợp nhất cho các dịch vụ thời gian thực như:
 
 ## TCP vs UDP
 
-| Basics | TCP| UDP|
+| Tiêu chí | TCP| UDP|
 |---|---|---|
-|Type of Service|TCP is a connection-oriented protocol. Connection-orientation means that the communicating devices should establish a connection before transmitting data and should close the connection after transmitting the data.|UDP is the Datagram-oriented protocol. This is because there is no overhead for opening a connection, maintaining a connection, and terminating a connection. UDP is efficient for broadcast and multicast types of network transmission.|
-|Reliability	|TCP is reliable as it guarantees the delivery of data to the destination router.	|The delivery of data to the destination cannot be guaranteed in UDP.|
-|Error checking mechanism	| TCP provides extensive error-checking mechanisms because of it provides flow control and acknowledgment of data.|UDP has only the basic error checking mechanism using checksums.|
-|Acknowledgment| An acknowledgment segment is present.| No acknowledgment segment.|
-|Sequence| Sequencing of data is a feature of TCP. This means that packets arrive in order at the receiver.	|There is no sequencing of data in UDP. If the order is required, it has to be managed by the application layer.|
-|Speed| TCP is comparatively slower than UDP.	|UDP is faster, simpler, and more efficient than TCP.|
-|Retransmission| Retransmission of lost packets is possible in TCP, but not in UDP.	|There is no retransmission of lost packets in UDP.|
-|Header Length| TCP has a 20-60 bytes variable length header.	|UDP has an 8 bytes fixed-length header.|
-|Weight| TCP is heavy-weight.	| UDP is lightweight.|
-|Handshaking Techniques|Uses handshakes such as SYN, ACK, SYN-ACK| It’s a connectionless protocol which means no handshake.|
+|Loại dịch vụ|TCP là giao thức hướng kết nối. Hai thiết bị cần thiết lập kết nối trước khi truyền dữ liệu và đóng kết nối sau khi truyền xong.|UDP là giao thức datagram. Nó không tốn overhead cho việc mở, duy trì và đóng kết nối, nên hiệu quả với broadcast và multicast.|
+|Độ tin cậy|TCP đáng tin cậy vì đảm bảo dữ liệu được chuyển tới đích.|UDP không đảm bảo dữ liệu chắc chắn tới đích.|
+|Cơ chế kiểm tra lỗi|TCP có cơ chế kiểm tra lỗi đầy đủ hơn nhờ flow control và acknowledgment.|UDP chỉ có cơ chế kiểm tra lỗi cơ bản bằng checksum.|
+|Acknowledgment|Có segment xác nhận.|Không có segment xác nhận.|
+|Thứ tự dữ liệu|TCP hỗ trợ sắp xếp thứ tự dữ liệu, nghĩa là packet đến phía nhận theo đúng thứ tự.|UDP không đảm bảo thứ tự dữ liệu. Nếu cần thứ tự, tầng ứng dụng phải tự xử lý.|
+|Tốc độ|TCP thường chậm hơn UDP.|UDP nhanh hơn, đơn giản hơn và hiệu quả hơn TCP.|
+|Truyền lại|TCP có thể truyền lại packet bị mất.|UDP không truyền lại packet bị mất.|
+|Độ dài header|TCP có header độ dài biến đổi, khoảng 20-60 byte.|UDP có header cố định 8 byte.|
+|Độ nặng|TCP nặng hơn.|UDP nhẹ hơn.|
+|Bắt tay kết nối|Dùng các bước handshake như SYN, ACK, SYN-ACK.|Là giao thức không kết nối nên không có handshake.|
 |Broadcasting	|TCP doesn’t support Broadcasting.| UDP supports Broadcasting.|
 |Stream Type| The TCP connection is a byte stream.	| UDP connection is message stream.|
 |Overhead	| Low but higher than UDP.	| Very low.|

@@ -17,7 +17,7 @@ projects:
   - icon: /logo.svg
     name: About
     desc: Giới thiệu về tôi
-    link: /about
+    link: /intro
 
   - icon: /assets/link.svg
     name: Links

@@ -1,5 +1,5 @@
 ---
-title: Data Structures & Algorithms
+title: Cấu trúc dữ liệu và giải thuật
 permalink: /dsa/
 article: false
 index: true
@@ -7,4 +7,4 @@ timeline: false
 icon: structure
 ---
 
-Category: Data Structures & Algorithms. Add DSA posts here.
+Chuyên mục cấu trúc dữ liệu và giải thuật, dùng để hệ thống hóa kiến thức nền tảng và các bài luyện tập.

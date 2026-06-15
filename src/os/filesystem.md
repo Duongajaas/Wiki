@@ -4,7 +4,7 @@ title: File System
 
 # Hệ thống tệp
 
-Trang này bổ sung trực tiếp cho phần I/O Management của repo gốc, tập trung vào cách dữ liệu được tổ chức trên đĩa và truy cập qua VFS.
+Trang này bổ sung trực tiếp cho phần quản lý I/O của repo gốc, tập trung vào cách dữ liệu được tổ chức trên đĩa và truy cập qua VFS.
 
 ## Khái niệm cốt lõi
 

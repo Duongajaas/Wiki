@@ -1,5 +1,5 @@
 ---
-title: About This Site
+title: Về trang này
 icon: info
 sidebar: false
 category: blog
@@ -7,40 +7,40 @@ tags:
   - blog
 ---
 
-# About This Site
+# Về trang này
 
 :::: info ✨📒
-Record the process of building this site, and share some thoughts and experiences.
+Ghi lại quá trình xây dựng website, đồng thời chia sẻ một vài ghi chú, suy nghĩ và kinh nghiệm học tập.
 ::::
 
-## Introduction
+## Giới thiệu
 
-This is my personal blog and wiki. I record thoughts, experiences, and technical notes from learning and working. I hope to share knowledge with others and learn from the community.
+Đây là blog và wiki cá nhân của mình. Mình dùng trang này để lưu lại suy nghĩ, kinh nghiệm và ghi chú kỹ thuật trong quá trình học tập, làm việc. Mục tiêu là chia sẻ kiến thức với mọi người và học thêm từ cộng đồng.
 
-## Features
+## Nội dung
 
-Please refer to the Wiki for details on the site's features.
+Bạn có thể xem các chuyên mục trong Wiki để biết nội dung chi tiết.
 
-I publish technical articles about operating systems, networking, databases, projects, programming languages, and more. I also share notes on learning resources, tools, and best practices.
+Mình đăng các bài viết kỹ thuật về hệ điều hành, mạng máy tính, cơ sở dữ liệu, dự án, ngôn ngữ lập trình và nhiều chủ đề liên quan. Ngoài ra còn có ghi chú về tài nguyên học tập, công cụ và các kinh nghiệm thực hành.
 
-## How to build
+## Cách xây dựng
 
-This site is built with VuePress 2.x and the `vuepress-theme-hope` theme. TypeScript is used for custom Vue components and plugins.
+Trang này được xây dựng bằng VuePress 2.x và theme `vuepress-theme-hope`. Một số component và plugin tùy chỉnh được viết bằng TypeScript.
 
-I write and manage content in Markdown using Obsidian.
+Mình viết và quản lý nội dung bằng Markdown trong Obsidian.
 
-Refer to the `README.md` in this folder for build and deployment details.
+Thông tin build và deploy nằm trong file `README.md` của thư mục này.
 
 ## Deploy
 
-This site is deployed to GitHub Pages using GitHub Actions. The published address for the demo site is:
+Trang được deploy lên GitHub Pages bằng GitHub Actions. Địa chỉ xuất bản là:
 
 https://Duongajaas.github.io/Wiki
 
-## Project context
+## Bối cảnh project
 
-This Wiki lives in the `Wiki/` folder of a larger workspace. Other projects (for example `bach-hoa-project`, `NT131`, `backend`, `frontend`, etc.) are organized as sibling folders at the repository root. Each project contains its own README with build and deployment instructions.
+Wiki này nằm trong thư mục `Wiki/` của một workspace lớn hơn. Các project khác, ví dụ `bach-hoa-project`, `NT131`, `backend`, `frontend`, được đặt ở các thư mục cùng cấp tại repository root. Mỗi project có README riêng cho hướng dẫn build và deploy.
 
 ::: tip
-I can add a per-project tools and commands section here later, for example build, run, docker, and deploy commands for selected projects.
+Sau này có thể bổ sung thêm phần công cụ và lệnh thường dùng cho từng project, ví dụ lệnh build, run, docker và deploy.
 :::

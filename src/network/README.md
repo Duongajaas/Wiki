@@ -1,10 +1,10 @@
 ---
-title: Networking
+title: Mạng máy tính
 permalink: /network/
 article: false
 index: true
 timeline: false
-icon: mdi:lan
+icon: network
 ---
 
-Category: Networking. Notes about computer networks, routing, switching, security, and protocols.
+Chuyên mục mạng máy tính, bao gồm kiến thức về mô hình mạng, địa chỉ IP, subnetting, routing, switching, VLAN, NAT, bảo mật mạng và các giao thức thường gặp.

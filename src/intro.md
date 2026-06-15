@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: Giới thiệu bản thân
 icon: people
 sidebar: false
 category: blog
@@ -7,27 +7,27 @@ tags:
   - blog
 ---
 
-# Introduction
+# Giới thiệu
 
-**Le Quoc Duong** — Backend Developer
+**Lê Quốc Dương** — Backend Developer
 
-- Role: Backend Developer
-- Contact: 0343897721 • lequocduong060712@gmail.com
+- Vai trò: Backend Developer
+- Liên hệ: 0343897721 • lequocduong060712@gmail.com
 - GitHub: https://github.com/Duongajaas
-- Website: https://duongajaas.github.io/Wiki/
+- Trang web: https://duongajaas.github.io/Wiki/
 
-## Summary
+## Tóm tắt
 
-I am an Information Technology student passionate about backend development and curious about how systems work behind the scenes. I am seeking real-world opportunities to grow my skills and contribute to building reliable, scalable applications.
+Mình là sinh viên Công nghệ Thông tin, yêu thích phát triển backend và luôn tò mò về cách các hệ thống vận hành phía sau. Mình đang tìm kiếm cơ hội thực tế để phát triển kỹ năng và đóng góp vào việc xây dựng các ứng dụng ổn định, dễ mở rộng.
 
-## Selected Projects
+## Dự án tiêu biểu
 
-- Bach Hoa Project (E-commerce + Admin + Mobile): implemented ZaloPay Sandbox payment flow, auto-cancel jobs, notifications system, and Android UI.
-- NT131 (Parking IoT + 3D Simulator): realtime parking workflow using TypeScript/Express, MongoDB, Socket.IO; Operator/Admin console and a 3D simulator app.
+- Bach Hoa Project (E-commerce + Admin + Mobile): triển khai luồng thanh toán ZaloPay Sandbox, tác vụ tự động hủy đơn, hệ thống thông báo và giao diện Android.
+- NT131 (Parking IoT + 3D Simulator): xây dựng luồng bãi đỗ xe realtime với TypeScript/Express, MongoDB, Socket.IO; có giao diện Operator/Admin và ứng dụng mô phỏng 3D.
 
-## Key Skills
+## Kỹ năng chính
 
-- Languages: JavaScript, TypeScript, SQL
+- Ngôn ngữ: JavaScript, TypeScript, SQL
 - Backend: Node.js, Express.js, REST APIs, JWT, Socket.IO
-- Databases: MongoDB, MySQL
-- Tools: Docker, Git, GitHub, Postman
+- Cơ sở dữ liệu: MongoDB, MySQL
+- Công cụ: Docker, Git, GitHub, Postman

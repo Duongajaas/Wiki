@@ -1,10 +1,10 @@
 ---
-title: Programming
+title: Lập trình
 permalink: /programming/
 article: false
 index: true
 timeline: false
-icon: mdi:code-tags
+icon: code
 ---
 
-Category: Programming. Add posts here.
+Chuyên mục lập trình, ghi chú ngôn ngữ, backend, frontend và các kỹ thuật phát triển phần mềm.

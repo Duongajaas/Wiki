@@ -1,32 +1,32 @@
 # NT131 Smart Parking
 
-## Overview
+## Tổng quan
 
 <img width="1126" height="786" alt="image" src="https://github.com/user-attachments/assets/18426e92-0a38-4ff2-b649-465f3c5873a9" />
 
-This is a smart parking project for NT131. The system now supports both a 3D simulator and real ESP32 hardware, including:
+Đây là project bãi đỗ xe thông minh cho môn NT131. Hệ thống hỗ trợ cả mô phỏng 3D và phần cứng ESP32 thật, bao gồm:
 
-- Backend API and Socket.IO realtime gateway.
-- Operator/admin frontend dashboard.
-- 3D simulator for vehicle entry/exit flow and operator integration.
-- ESP32 firmware for gate control, RC522 RFID scanning, LCD display, and realtime command handling.
-- FreeRTOS on ESP32 to split network, RFID, servo, LCD, and metrics workloads.
-- Testing tools for RTT/ACK, packet loss, reconnect behavior, and RFID processing to evaluate FreeRTOS effectiveness.
+- Backend API và Socket.IO realtime gateway.
+- Dashboard frontend cho operator/admin.
+- Bộ mô phỏng 3D cho luồng xe vào/ra và tích hợp với operator.
+- Firmware ESP32 để điều khiển barrier, quét RFID RC522, hiển thị LCD và xử lý lệnh realtime.
+- FreeRTOS trên ESP32 để tách các workload mạng, RFID, servo, LCD và metrics.
+- Bộ công cụ test RTT/ACK, mất gói, reconnect và xử lý RFID để đánh giá hiệu quả của FreeRTOS.
 
-The main goal is to validate a near-real smart parking workflow: the simulator detects vehicles, ESP32 reads RFID cards, the backend verifies cards and vehicles, the frontend updates in realtime, and ESP32 controls the gate servos.
+Mục tiêu chính là kiểm chứng một luồng bãi đỗ xe gần với thực tế: simulator phát hiện xe, ESP32 đọc thẻ RFID, backend xác thực thẻ và xe, frontend cập nhật realtime, sau đó ESP32 điều khiển servo mở/đóng barrier.
 
-## Main Components
+## Thành phần chính
 
-| Directory | Role |
+| Thư mục | Vai trò |
 | --- | --- |
-| `backend` | Express + TypeScript API, MongoDB/Mongoose, Socket.IO, authentication, parking sessions, hardware bootstrap |
-| `frontend` | React + Vite dashboard for operators and admins |
-| `simulator-3d` | 3D app for vehicle entry/exit simulation, RFID checkpoints, and realtime events |
-| `hardware` | ESP32 firmware, pin configuration, FreeRTOS tasks, and hardware wiring guide |
-| `tools` | Socket.IO/FreeRTOS test scripts, JSON results, and generated charts |
-| `docs` | ArchitectureKiến trúckiến trúc, tổ chức✓× documents, realtime contracts, and database notes |
+| `backend` | API Express + TypeScript, MongoDB/Mongoose, Socket.IO, xác thực, phiên gửi xe, bootstrap phần cứng |
+| `frontend` | Dashboard React + Vite cho operator và admin |
+| `simulator-3d` | Ứng dụng 3D mô phỏng xe vào/ra, checkpoint RFID và sự kiện realtime |
+| `hardware` | Firmware ESP32, cấu hình chân, FreeRTOS task và hướng dẫn đấu nối |
+| `tools` | Script test Socket.IO/FreeRTOS, kết quả JSON và biểu đồ sinh tự động |
+| `docs` | Tài liệu kiến trúc, hợp đồng realtime và ghi chú database |
 
-## Technologies
+## Công nghệ
 
 - Node.js, TypeScript, Express.js
 - MongoDB, Mongoose
@@ -34,11 +34,10 @@ The main goal is to validate a near-real smart parking workflow: the simulator d
 - React, Vite, Zustand, React Router
 - React Three Fiber, Three.js
 - ESP32 Arduino, FreeRTOS
-- RC522 RFID, servo gates, LCD I2C 16x2
-- Docker and Docker Compose
+- RC522 RFID, servo barrier, LCD I2C 16x2
+- Docker và Docker Compose
 
-## System ArchitectureKiến trúckiến trúc, tổ chức✓×
-
+## Kiến trúc hệ thống
 
 ```mermaid
 flowchart LR
@@ -92,23 +91,21 @@ flowchart LR
   SIM <-->|REST + Socket.IO simulator room| SIO
 ```
 
-The backend is the central coordination point between UI, simulator, database, and real hardware:
+Backend là điểm điều phối trung tâm giữa UI, simulator, database và phần cứng thật:
 
-- REST API is served under `/api/v1`.
-- Socket.IO is served at `/socket.io`.
-- Operators join the `operator` room.
-- The simulator joins the `simulator` room.
-- ESP32 joins the `hardware` room.
-- ESP32 fetches socket configuration from `/api/v1/hardware/bootstrap`.
-- ESP32 runs hardware work in isolated FreeRTOS tasks so WiFi, RFID polling, servo control, LCD display, and realtime events can progress concurrently.
+- REST API được phục vụ dưới `/api/v1`.
+- Socket.IO chạy tại `/socket.io`.
+- Operator tham gia room `operator`.
+- Simulator tham gia room `simulator`.
+- ESP32 tham gia room `hardware`.
+- ESP32 lấy cấu hình socket từ `/api/v1/hardware/bootstrap`.
+- ESP32 chạy các công việc phần cứng trong nhiều FreeRTOS task độc lập để WiFi, RFID polling, servo, LCD và sự kiện realtime có thể chạy đồng thời.
 
-## Operating Flow
+## Luồng vận hành
 
 <img width="1100" height="960" alt="Blank diagram" src="https://github.com/user-attachments/assets/66d3e816-47fe-4584-9806-6780296904ee" />
 
-
-
-The complete entry/exit flow combines license plate context from the simulator, RFID data from ESP32, backend validation, MongoDB state, and servo control:
+Luồng vào/ra hoàn chỉnh kết hợp biển số từ simulator, dữ liệu RFID từ ESP32, xác thực ở backend, trạng thái MongoDB và điều khiển servo:
 
 ```mermaid
 flowchart LR
@@ -131,21 +128,21 @@ flowchart LR
   BE --> SIM[Simulator continues flow]
 ```
 
-Step-by-step:
+Các bước chính:
 
-| Step | Actor | Action | Main data |
+| Bước | Thành phần | Hành động | Dữ liệu chính |
 | --- | --- | --- | --- |
-| 1 | Simulator / camera context | Vehicle reaches `entry_rfid` or `exit_rfid` checkpoint | Plate number, checkpoint, correlation id |
-| 2 | ESP32 + RC522 | RFID card is scanned and sent to backend | UID, checkpoint, correlation id |
-| 3 | Backend + MongoDB | Backend checks active RFID card, linked vehicle, and current session state | `rfidcards`, `vehicles`, `parkingsessions` |
-| 4 | Backend | Backend emits accepted/rejected result and creates or updates a parking session | `rfid.scan.accepted`, `rfid.scan.rejected`, `session.*` |
-| 5 | Backend + ESP32 | Backend sends gate command to hardware | `gate.command.sent` |
-| 6 | ESP32 + FreeRTOS | Servo task receives queued command and opens/closes gate | PWM servo signal, `gate.ack` |
-| 7 | Frontend + Simulator | Operator UI and simulator receive realtime updates | `realtime.event`, gate/session/slot events |
+| 1 | Simulator / camera context | Xe tới checkpoint `entry_rfid` hoặc `exit_rfid` | Biển số, checkpoint, correlation id |
+| 2 | ESP32 + RC522 | Quét thẻ RFID và gửi về backend | UID, checkpoint, correlation id |
+| 3 | Backend + MongoDB | Kiểm tra thẻ RFID đang hoạt động, xe liên kết và trạng thái phiên gửi xe | `rfidcards`, `vehicles`, `parkingsessions` |
+| 4 | Backend | Phát kết quả accepted/rejected và tạo hoặc cập nhật phiên gửi xe | `rfid.scan.accepted`, `rfid.scan.rejected`, `session.*` |
+| 5 | Backend + ESP32 | Gửi lệnh điều khiển barrier tới phần cứng | `gate.command.sent` |
+| 6 | ESP32 + FreeRTOS | Servo task nhận lệnh trong queue và mở/đóng barrier | Tín hiệu PWM servo, `gate.ack` |
+| 7 | Frontend + Simulator | UI operator và simulator nhận cập nhật realtime | `realtime.event`, sự kiện gate/session/slot |
 
-## Quick Start With Docker Compose
+## Chạy nhanh với Docker Compose
 
-Create `backend/.env` before running the stack:
+Tạo file `backend/.env` trước khi chạy toàn bộ stack:
 
 ```bash
 cd backend
@@ -153,20 +150,20 @@ cp .env.example .env
 cd ..
 ```
 
-Run from the repository root:
+Chạy từ thư mục root của repository:
 
 ```bash
 docker compose up --build -d
 ```
 
-Default service URLs:
+URL mặc định:
 
 - Backend API: `http://localhost:3000/api/v1`
 - Socket.IO: `http://localhost:3000/socket.io`
 - Frontend: `http://localhost:8080`
 - Simulator 3D: `http://localhost:8081`
 
-## Local Development
+## Phát triển local
 
 ### Backend
 
@@ -177,7 +174,7 @@ npm install
 npm run dev
 ```
 
-Default local backend:
+Backend local mặc định:
 
 - API: `http://localhost:5000/api/v1`
 - Socket.IO: `http://localhost:5000/socket.io`
@@ -191,7 +188,7 @@ npm install
 npm run dev
 ```
 
-Default Vite URL: `http://localhost:5173`.
+URL Vite mặc định: `http://localhost:5173`.
 
 ### Simulator 3D
 
@@ -201,24 +198,24 @@ npm install
 npm run dev
 ```
 
-Default Vite URL: `http://localhost:5174`, or the next available Vite port.
+URL Vite mặc định: `http://localhost:5174`, hoặc port Vite khả dụng tiếp theo.
 
-### ESP32 Hardware
+### Phần cứng ESP32
 
-1. Copy the hardware config file:
+1. Sao chép file cấu hình phần cứng:
 
 ```bash
 cp hardware/hardware_config.example.h hardware/esp32-gate-socket-controller/hardware_config.h
 ```
 
-2. Edit WiFi, backend IP, port, keys, and servo pins in `hardware_config.h`.
-3. Open `hardware/esp32-gate-socket-controller/esp32-gate-socket-controller.ino` in Arduino IDE.
-4. Install these libraries: `ArduinoJson`, `Socket.IO`, `ESP32Servo`, `MFRC522`, `LiquidCrystal_I2C`.
-5. Upload to ESP32 and open Serial Monitor.
+2. Chỉnh WiFi, IP backend, port, key và chân servo trong `hardware_config.h`.
+3. Mở `hardware/esp32-gate-socket-controller/esp32-gate-socket-controller.ino` bằng Arduino IDE.
+4. Cài các thư viện: `ArduinoJson`, `Socket.IO`, `ESP32Servo`, `MFRC522`, `LiquidCrystal_I2C`.
+5. Upload lên ESP32 và mở Serial Monitor.
 
-See `hardware/README.md` for the detailed guide.
+Xem `hardware/README.md` để đọc hướng dẫn chi tiết.
 
-## Important Configuration
+## Cấu hình quan trọng
 
 Backend `.env`:
 
@@ -236,11 +233,11 @@ HARDWARE_SOCKET_PATH=/socket.io
 HARDWARE_SOCKET_RECONNECT_INTERVAL_MS=5000
 ```
 
-When ESP32 and the backend are not running on the same host, set:
+Khi ESP32 và backend không chạy trên cùng một máy, cần cấu hình:
 
-- `HARDWARE_SOCKET_HOST`: LAN IP of the backend machine, for example `192.168.1.5`.
-- `HARDWARE_SOCKET_PORT`: backend port, usually `5000` for local development or `3000` for Docker.
-- `HARDWARE_BOOTSTRAP_KEY`: secret key for the hardware bootstrap endpoint.
+- `HARDWARE_SOCKET_HOST`: IP LAN của máy chạy backend, ví dụ `192.168.1.5`.
+- `HARDWARE_SOCKET_PORT`: port backend, thường là `5000` khi chạy local hoặc `3000` khi chạy Docker.
+- `HARDWARE_BOOTSTRAP_KEY`: khóa bí mật cho endpoint bootstrap phần cứng.
 
 Frontend `.env`:
 
@@ -250,36 +247,36 @@ VITE_SOCKET_URL=http://localhost:5000
 VITE_SIMULATOR_API_KEY=
 ```
 
-## FreeRTOS on ESP32
+## FreeRTOS trên ESP32
 
-The ESP32 firmware is split into multiple FreeRTOS tasks:
+Firmware ESP32 được tách thành nhiều FreeRTOS task:
 
-| Task | Core | Priority | Purpose |
+| Task | Core | Độ ưu tiên | Mục đích |
 | --- | --- | --- | --- |
-| `taskSocketIO` | 1 | High | Maintain Socket.IO, receive realtime commands, emit queued RFID events |
-| `taskRfidPolling` | 0 | High | Poll RC522 when the backend/simulator requests RFID scanning |
-| `taskServoControl` | 0 | Medium | Control servos through a queue without blocking socket/RFID work |
-| `taskWifiManager` | 1 | Medium | Monitor WiFi and reconnect |
-| `taskLcdDisplay` | 0 | Low | Update LCD from a display queue |
-| `taskMetrics` | 1 | Low | Print heap, queue load, and task stack high-water marks periodically |
+| `taskSocketIO` | 1 | Cao | Duy trì Socket.IO, nhận lệnh realtime và phát các sự kiện RFID đã queue |
+| `taskRfidPolling` | 0 | Cao | Poll RC522 khi backend/simulator yêu cầu quét RFID |
+| `taskServoControl` | 0 | Trung bình | Điều khiển servo qua queue để không chặn socket/RFID |
+| `taskWifiManager` | 1 | Trung bình | Theo dõi WiFi và tự reconnect |
+| `taskLcdDisplay` | 0 | Thấp | Cập nhật LCD từ display queue |
+| `taskMetrics` | 1 | Thấp | In heap, tải queue và stack high-water mark định kỳ |
 
-FreeRTOS lets the servo move while RFID and Socket.IO keep running. This matters because servo sweeps include step delays; a blocking `loop()` implementation can delay or miss realtime events.
+FreeRTOS cho phép servo chuyển động trong khi RFID và Socket.IO vẫn tiếp tục chạy. Điều này quan trọng vì chuyển động servo có delay theo từng bước; nếu dùng `loop()` theo kiểu blocking thì có thể làm trễ hoặc bỏ lỡ sự kiện realtime.
 
-Detailed documentation: `hardware/esp32-gate-socket-controller/FREERTOS_IMPLEMENTATION.md`.
+Tài liệu chi tiết: `hardware/esp32-gate-socket-controller/FREERTOS_IMPLEMENTATION.md`.
 
-## FreeRTOS Effectiveness Testing
+## Kiểm thử hiệu quả FreeRTOS
 
-The `tools` directory contains realtime test scripts:
+Thư mục `tools` chứa các script test realtime:
 
-- `Test1`: consecutive gate commands with short delays.
-- `Test2`: alternating entry/exit gate commands.
-- `Test3`: burst command flood to observe queues, ACKs, and loss.
-- `Test4`: measures `gate.state.changed` latency.
-- `Test5`: RFID rejection path.
-- `Test6`: RFID accepted path using real card/vehicle data in the database.
-- `Test7`: forced Socket.IO disconnect/reconnect.
+- `Test1`: gửi liên tiếp lệnh mở/đóng barrier với delay ngắn.
+- `Test2`: luân phiên lệnh barrier vào/ra.
+- `Test3`: gửi burst command để quan sát queue, ACK và mất gói.
+- `Test4`: đo độ trễ `gate.state.changed`.
+- `Test5`: luồng RFID bị từ chối.
+- `Test6`: luồng RFID được chấp nhận bằng dữ liệu thẻ/xe thật trong database.
+- `Test7`: ép Socket.IO disconnect/reconnect.
 
-Run tests:
+Chạy test:
 
 ```bash
 cd tools
@@ -289,19 +286,19 @@ SOCKET_HOST=http://192.168.1.5:5000 npm run test:test3
 SOCKET_HOST=http://192.168.1.5:5000 npm run test:test7
 ```
 
-Results are written to:
+Kết quả được ghi vào:
 
-- `tools/results/*.json`: command count, ACKs, lost count, average RTT, p95, p99, max.
-- `tools/charts/*.png`: charts generated by the Python plotting script.
+- `tools/results/*.json`: số lệnh, ACK, số gói mất, RTT trung bình, p95, p99 và max.
+- `tools/charts/*.png`: biểu đồ sinh bởi script Python.
 
-When testing ESP32 FreeRTOS, also monitor Serial output lines starting with `[metrics]`:
+Khi test ESP32 FreeRTOS, nên theo dõi thêm các dòng Serial bắt đầu bằng `[metrics]`:
 
-- Free heap and minimum heap.
-- Load of `queueServoCommand`, `queueRfidEvent`, and `queueDisplay`.
-- Stack high-water marks for each task.
-- RTT and lost count in `tools/results`.
+- Free heap và minimum heap.
+- Tải của `queueServoCommand`, `queueRfidEvent` và `queueDisplay`.
+- Stack high-water mark của từng task.
+- RTT và số gói mất trong `tools/results`.
 
-## Parking Entry Flow
+## Luồng xe vào bãi
 
 ```mermaid
 flowchart LR
@@ -316,7 +313,7 @@ flowchart LR
   BE -->|slot.assigned / session.created| SIM
 ```
 
-## Main API Routes
+## API route chính
 
 - `/api/v1/auth`
 - `/api/v1/hardware/bootstrap`
@@ -328,7 +325,7 @@ flowchart LR
 - `/api/v1/parking/slots`
 - `/api/v1/parking/status`
 
-## Related Documentation
+## Tài liệu liên quan
 
 - `backend/README.md`
 - `frontend/README.md`

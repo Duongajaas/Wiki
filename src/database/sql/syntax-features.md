@@ -1,5 +1,5 @@
 ---
-title: SQL Syntax Foudation Features
+title: Các tính năng cơ bản của cú pháp SQL
 tags: [db, sql]
 categories: [db, sql]
 date created: 2023-07-21

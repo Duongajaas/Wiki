@@ -1,8 +1,8 @@
 ---
-title: Software Defined Networking (SDN)
+title: Mạng định nghĩa bằng phần mềm (SDN)
 ---
 
-# Software Defined Networking (SDN)
+# Mạng định nghĩa bằng phần mềm (SDN)
 
 <p align="center"><img height="350" src="/assets/images/network/SDN.png"></p>
 
@@ -12,14 +12,14 @@ Thông thường, **doanh nghiệp dùng SDN** để triển khai ứng dụng n
 
 - **Data plane:** Tất cả hoạt động liên quan tới, cũng như phát sinh từ, các packet dữ liệu do người dùng cuối gửi đều thuộc plane này. Bao gồm:
   
-   - **Forwarding of packets**.
-   - **Segmentation and reassembly of data**.
-   - **Replication of packets for multicasting**. 
+   - **Chuyển tiếp packet**.
+   - **Phân mảnh và ghép lại dữ liệu**.
+   - **Nhân bản packet cho multicast**. 
 
 - **Control plane:** Tất cả hoạt động cần thiết để thực hiện data plane nhưng không liên quan trực tiếp tới packet của người dùng cuối đều thuộc plane này. Nói cách khác, đây là **bộ não của mạng**. Các hoạt động của control plane gồm:
   
-   - **Making routing tables**.
-   - **Setting packet handling policies**.
+   - **Tạo bảng định tuyến**.
+   - **Thiết lập chính sách xử lý packet**.
 
 
 ## Vì sao SDN quan trọng?
@@ -46,7 +46,7 @@ Nói ngắn gọn, có thể hiểu rằng **SDN hoạt động như một “ch
 
 ## Khác biệt giữa SDN và mạng truyền thống
 
-|Software Defined Networking|Traditional Networking|
+|Mạng định nghĩa bằng phần mềm|Mạng truyền thống|
 |-|-|
 |Software Defined Network là một cách tiếp cận **mạng ảo**.|Mạng truyền thống là cách tiếp cận **mạng cổ điển**.|
 |Software Defined Network có **điều khiển tập trung**.|Mạng truyền thống có **điều khiển phân tán**.|
@@ -54,14 +54,14 @@ Nói ngắn gọn, có thể hiểu rằng **SDN hoạt động như một “ch
 |Software Defined Network là **giao diện mở**.|Mạng truyền thống là **giao diện đóng**.|
 |Trong Software Defined Network, data plane và control plane được tách rời bởi phần mềm.|Trong mạng truyền thống, data plane và control plane nằm trên cùng một thiết bị.|
 
-## Các thành phần của Software Defined Networking (SDN)
+## Các thành phần của mạng định nghĩa bằng phần mềm (SDN)
 
 <p align="center"><img height="300" src="/assets/images/network/SDN_components.png"></p>
 
 Ba thành phần chính tạo nên SDN là:
-- **SDN Applications:** Ứng dụng SDN chuyển tiếp yêu cầu hoặc điều khiển mạng thông qua SDN Controller bằng API.
-- **SDN controller:** SDN Controller thu thập thông tin mạng từ phần cứng và gửi thông tin này tới ứng dụng.
-- **SDN networking devices:** Các thiết bị mạng SDN hỗ trợ các tác vụ chuyển tiếp và xử lý dữ liệu.
+- **Ứng dụng SDN:** Chuyển tiếp yêu cầu hoặc điều khiển mạng thông qua SDN Controller bằng API.
+- **SDN Controller:** Thu thập thông tin mạng từ phần cứng và gửi thông tin này tới ứng dụng.
+- **Thiết bị mạng SDN:** Hỗ trợ các tác vụ chuyển tiếp và xử lý dữ liệu.
 
 
 ## SDN Controller

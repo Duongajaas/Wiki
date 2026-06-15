@@ -1,10 +1,10 @@
 ---
-title: Projects
+title: Dự án
 permalink: /project/
 article: false
 index: true
 timeline: false
-icon: mdi:folder-code-outline
+icon: project
 ---
 
-Category: Projects. Notes, setup guides, and implementation details for personal and academic projects.
+Chuyên mục dự án, gồm ghi chú triển khai, hướng dẫn cài đặt, kiến trúc và chi tiết kỹ thuật của các project cá nhân hoặc học phần.

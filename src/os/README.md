@@ -1,5 +1,5 @@
 ---
-title: Operating Systems
+title: Hệ điều hành
 icon: linux
 ---
 
@@ -16,16 +16,16 @@ icon: linux
 - [Quản lý bộ nhớ](memory.md)
 - [IPC](ipc.md)
 - [Đồng bộ](ipc.md#đồng-bộ)
-- [I/O Management](io-filesystem.md)
-- [Virtual File System](io-filesystem.md#hệ-thống-tệp-ảo-vfs)
-- [Virtualization](virtualization-distributed.md)
-- [Remote Procedure Calls](virtualization-distributed.md#rpc)
-- [Distributed File Systems](virtualization-distributed.md#hệ-thống-tệp-phân-tán)
-- [Distributed Shared Memory](virtualization-distributed.md#bộ-nhớ-chia-sẻ-phân-tán)
+- [Quản lý I/O](io-filesystem.md)
+- [Hệ thống tệp ảo](io-filesystem.md#hệ-thống-tệp-ảo-vfs)
+- [Ảo hóa](virtualization-distributed.md)
+- [Remote Procedure Call](virtualization-distributed.md#rpc)
+- [Hệ thống tệp phân tán](virtualization-distributed.md#hệ-thống-tệp-phân-tán)
+- [Bộ nhớ chia sẻ phân tán](virtualization-distributed.md#bộ-nhớ-chia-sẻ-phân-tán)
 
 ## Repo này mạnh ở đâu
 
-Repo này cover khá chuẩn những phần nền tảng của OS:
+Repo này bao quát khá chuẩn những phần nền tảng của hệ điều hành:
 
 - Process / Thread
 - Scheduling
@@ -41,12 +41,12 @@ Nói cách khác, đây là kiểu note đúng format giáo trình, rất gần 
 
 Nếu chỉ học repo gốc, bạn vẫn nên bổ sung thêm các mảng sau:
 
-- system call detail
-- kernel internals
+- chi tiết về system call
+- nội bộ kernel
 - Linux scheduling thực chiến
 - paging thực tế, TLB, cache
 - file system như inode, ext4
-- OS security
+- bảo mật hệ điều hành
 - deadlock chi tiết hơn
 
 ## Cách học đề xuất

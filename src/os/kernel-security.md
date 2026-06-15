@@ -4,7 +4,7 @@ title: Kernel & System Call
 
 # Kernel, System Call và Bảo mật
 
-Phần này gom các ý cốt lõi từ **Operating Systems Overview** và các phần bảo vệ hệ thống trong repo gốc. Đây là chỗ giúp bạn hiểu vì sao OS là lớp “có quyền” nhất của máy.
+Phần này gom các ý cốt lõi từ **tổng quan hệ điều hành** và các phần bảo vệ hệ thống trong repo gốc. Đây là chỗ giúp bạn hiểu vì sao OS là lớp “có quyền” nhất của máy.
 
 ## Hệ điều hành nằm ở đâu
 

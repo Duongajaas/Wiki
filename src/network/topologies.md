@@ -67,7 +67,7 @@ Trong star topology, tất cả thiết bị đều **được kết nối tới
 | Advantage | Problems |
 | :---:| :---:|
 |  Adding a new device is easy.  |  Requires a lot of cables.  | 
-|Problem detetection is snap. |If the concentrator (hub) on which the whole topology relies fails, the whole system will crash down.|
+|Phát hiện sự cố khá nhanh. |Nếu hub trung tâm mà toàn bộ topology phụ thuộc vào bị lỗi, toàn bộ hệ thống sẽ ngừng hoạt động.|
 
 
 ## Topology lưới
@@ -77,11 +77,11 @@ Trong star topology, tất cả thiết bị đều **được kết nối tới
 
 Trong một mesh topology, mỗi thiết bị được kết nối với thiết bị khác qua một kênh riêng.
 
-| Advantage | Problems |
+| Ưu điểm | Hạn chế |
 | :---:| :---:|
-|  Communication is very fast between the nodes.  |  The cost of cables is high as bulk wiring is required, hence suitable for less number of devices.  | 
-|Data is reliable because data is transferred among the devices through dedicated channels or links. |The cost of maintenance is high.|
-|Provides security and privacy.| Installation and configuration are difficult.|
+|  Giao tiếp giữa các node rất nhanh.  |  Chi phí dây cáp cao vì cần nhiều kết nối riêng, nên chỉ phù hợp với số lượng thiết bị ít.  | 
+|Dữ liệu đáng tin cậy vì được truyền qua các kênh hoặc liên kết chuyên dụng. |Chi phí bảo trì cao.|
+|Cung cấp tính bảo mật và riêng tư tốt.| Cài đặt và cấu hình khó.|
 
 
 ## Topology cây
@@ -90,9 +90,9 @@ Trong một mesh topology, mỗi thiết bị được kết nối với thiết
 
 Trong mạng máy tính, tree topology là một kiểu topology mạng **giống như cây**. Trong tree topology, có một node trung tâm (phần **trunk**), và mỗi node được kết nối với node trung tâm qua một đường duy nhất. Các node có thể được xem như những nhánh mọc ra từ trunk. Tree topology thường được dùng để tạo các mạng lớn.
 
-| Advantage | Problems |
+| Ưu điểm | Hạn chế |
 | :---:| :---:|
-|  Error detection and error correction are very easy.  |  If the central hub gets fails the entire system fails.  | 
+|  Phát hiện và sửa lỗi khá dễ.  |  Nếu hub trung tâm bị lỗi, toàn bộ hệ thống sẽ bị ảnh hưởng.  | 
 |We can add new devices to the existing network. |The cost is high because of the cabling.|
 |It allows the network to get isolated and also prioritize from different computers.| If new devices are added, it becomes difficult to reconfigure.|
 

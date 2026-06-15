@@ -3,7 +3,7 @@ import { NavbarItem } from "vuepress-theme-hope";
 export const otherNav: NavbarItem[] = [
   {
     text: "Algorithms",
-    icon: "mdi:graph-outline",
+    icon: "algorithm",
     link: "/algorithms/",
   },
   {
@@ -18,11 +18,11 @@ export const otherNav: NavbarItem[] = [
   },
   {
     text: "Projects",
-    icon: "mdi:folder-code-outline",
+    icon: "project",
     link: "/project/",
     children: [
-      { text: "BachHoa", icon: "mdi:cart-outline", link: "/project/BachHoa/" },
-      { text: "NT131", icon: "mdi:parking", link: "/project/NT131/" },
+      { text: "BachHoa", icon: "project", link: "/project/BachHoa/" },
+      { text: "NT131", icon: "project", link: "/project/NT131/" },
     ],
   },
 ];

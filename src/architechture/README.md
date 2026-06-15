@@ -1,5 +1,5 @@
 ---
-title: Architecture
+title: Kiến trúc phần mềm
 permalink: /programming/architechture/
 article: false
 index: true
@@ -7,4 +7,4 @@ timeline: false
 icon: diagram
 ---
 
-Category: Architecture. Add architecture posts here.
+Chuyên mục kiến trúc phần mềm, ghi chú về cách tổ chức hệ thống, mô hình thiết kế và các quyết định kỹ thuật.
