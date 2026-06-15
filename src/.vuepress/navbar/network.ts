@@ -2,7 +2,7 @@ import { NavbarGroup } from "vuepress-theme-hope";
 
 export const networkNav: NavbarGroup = {
   text: "Networking",
-  icon: "mdi:network",
+  icon: "mdi:lan",
   link: "/network/",
   children: [
     {

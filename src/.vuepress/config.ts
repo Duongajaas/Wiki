@@ -87,7 +87,7 @@ export default defineUserConfig({
       indexName: "Duongajaas",
       locales: {
         "/": {
-          placeholder: "Tìm kiếm nội dung",
+          placeholder: "Tìm kiếm bài viết...",
           translations: {
             button: {
               buttonText: "Tìm kiếm",
@@ -95,33 +95,33 @@ export default defineUserConfig({
             },
             modal: {
               searchBox: {
-                resetButtonTitle: "Xóa bộ lọc",
-                resetButtonAriaLabel: "Xóa bộ lọc",
+                resetButtonTitle: "Xóa từ khóa",
+                resetButtonAriaLabel: "Xóa từ khóa",
                 cancelButtonText: "Hủy",
                 cancelButtonAriaLabel: "Hủy",
               },
               startScreen: {
-                recentSearchesTitle: "Lịch sử tìm kiếm",
-                noRecentSearchesText: "Không có lịch sử tìm kiếm",
-                saveRecentSearchButtonTitle: "Lưu vào lịch sử tìm kiếm",
-                removeRecentSearchButtonTitle: "Xóa khỏi lịch sử tìm kiếm",
-                favoriteSearchesTitle: "Yêu thích",
-                removeFavoriteSearchButtonTitle: "Xóa khỏi mục yêu thích",
+                recentSearchesTitle: "Tìm kiếm gần đây",
+                noRecentSearchesText: "Chưa có tìm kiếm gần đây",
+                saveRecentSearchButtonTitle: "Lưu tìm kiếm này",
+                removeRecentSearchButtonTitle: "Xóa tìm kiếm này",
+                favoriteSearchesTitle: "Đã lưu",
+                removeFavoriteSearchButtonTitle: "Xóa khỏi danh sách đã lưu",
               },
               errorScreen: {
-                titleText: "Không thể lấy kết quả",
-                helpText: "Có thể bạn cần kiểm tra kết nối mạng",
+                titleText: "Không thể tải kết quả",
+                helpText: "Vui lòng kiểm tra kết nối mạng rồi thử lại",
               },
               footer: {
                 selectText: "Chọn",
-                navigateText: "Chuyển",
+                navigateText: "Di chuyển",
                 closeText: "Đóng",
-                searchByText: "Nhà cung cấp tìm kiếm",
+                searchByText: "Tìm kiếm bởi",
               },
               noResultsScreen: {
-                noResultsText: "Không tìm thấy kết quả phù hợp",
-                suggestedQueryText: "Bạn có thể thử tìm",
-                reportMissingResultsText: "Bạn nghĩ truy vấn này đáng lẽ phải có kết quả?",
+                noResultsText: "Không tìm thấy kết quả",
+                suggestedQueryText: "Thử tìm với từ khóa khác",
+                reportMissingResultsText: "Bạn nghĩ nội dung này nên xuất hiện?",
                 reportMissingResultsLinkText: "Gửi phản hồi",
               },
             },

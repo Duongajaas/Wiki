@@ -156,7 +156,7 @@ export default MyTheme({
         {
           key: "news",
           filter: (page) => page.frontmatter.news === true,
-          layout: "",
+          layout: "News",
           frontmatter: () => ({ title: "Talk" }),
         },
       ],

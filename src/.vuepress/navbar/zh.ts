@@ -44,11 +44,6 @@ export const zhNavbar = navbar([
     link: "/collect",
   },
   {
-    text: "Say Something",
-    icon: "news",
-    link: "/news/",
-  },
-  {
     text: "Message Board",
     icon: "mark",
     link: "/visitorsbook",
